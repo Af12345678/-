@@ -1,0 +1,2437 @@
+<!DOCTYPE html>
+<html lang='zh-CN'>
+<head>
+<title>bj.txt · 编辑文件 · 谭明/tv - Gitee.com</title>
+<meta content='on' http-equiv='x-dns-prefetch-control'>
+<link href='//e.gitee.com' rel='dns-prefetch'>
+<link href='//files.gitee.com' rel='dns-prefetch'>
+<link href='//toscode.gitee.com' rel='dns-prefetch'>
+<link href='https://assets.gitee.com' rel='dns-prefetch'>
+<link href='https://portrait.gitee.com' rel='dns-prefetch'>
+<link rel="shortcut icon" type="image/vnd.microsoft.icon" href="https://assets.gitee.com/assets/favicon-9007bd527d8a7851c8330e783151df58.ico" />
+<link rel="canonical" href="https://gitee.com/tm147/tv" />
+<meta content='gitee.com/tm147/tv git https://gitee.com/tm147/tv.git' name='go-import'>
+<meta charset='utf-8'>
+<meta content='always' name='referrer'>
+<meta content='Gitee' property='og:site_name'>
+<meta content='Object' property='og:type'>
+<meta content='http://gitee.com/tm147/tv/edit/master/bj.txt' property='og:url'>
+<meta content='https://gitee.com/static/images/logo_themecolor.png' itemprop='image' property='og:image'>
+<meta content='bj.txt · 编辑文件 · 谭明/tv - Gitee.com' itemprop='name' property='og:title'>
+<meta content='Gitee.com（码云） 是 OSCHINA.NET 推出的代码托管平台，支持 Git 和 SVN，提供免费的私有仓库托管。目前已有超过 600 万的开发者选择 Gitee。' property='og:description'>
+<meta content='码云,Gitee,代码托管,Git,Git@OSC,Gitee.com,开源,内源,项目管理,版本控制,开源代码,代码分享,项目协作,开源项目托管,免费代码托管,Git代码托管,Git托管服务' name='Keywords'>
+<meta content='Gitee.com（码云） 是 OSCHINA.NET 推出的代码托管平台，支持 Git 和 SVN，提供免费的私有仓库托管。目前已有超过 600 万的开发者选择 Gitee。' itemprop='description' name='Description'>
+
+
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="RNOCElBlQB76ej1gsNjIntCDSQ9rsIj4gqB3vUV0x1tsepDtOsdYVSbAbv4tQ8ryhAM1wbKLstyuheVFeYzT0A==" />
+
+<link rel="stylesheet" media="all" href="https://assets.gitee.com/assets/application-49af402616e08d245c067c3fe86cbe1e.css" />
+<script>
+//<![CDATA[
+window.gon = {};gon.locale="zh-CN";gon.sentry_dsn=null;gon.baidu_register_hm_push=null;gon.sensor={"server_url":"https://haveaniceday.gitee.com:3443/sa?project=production","page_type":"其他"};gon.info={"controller_path":"blob","action_name":"edit","current_user":{"id":8559194,"name":"谭明","username":"tm147","official":false,"admin":false,"avatar_url":"no_portrait.png#谭明-tm147"}};gon.tour_env={"current_user":"tm147","action_name":"edit","original_url":"http://gitee.com/tm147/tv/edit/master/bj.txt","controller_path":"blob"};gon.http_clone="https://gitee.com/tm147/tv.git";gon.user_project="tm147/tv";gon.manage_branch="管理分支";gon.manage_tag="管理标签";gon.enterprise_id=0;gon.create_reaction_path="/tm147/tv/reactions";
+//]]>
+</script>
+<script src="https://assets.gitee.com/assets/static/sensor-5984a2e9c24e9047ba28a1ddc8442b67.js"></script>
+<script src="https://assets.gitee.com/assets/static/sentry-5.1.0-a823fb0be1b61c5d7ca4a89f0536cb0a.js"></script>
+<script src="https://assets.gitee.com/assets/application-5accbf64476930eee0c0f4e5939fa134.js"></script>
+<script src="https://assets.gitee.com/assets/lib/jquery.timeago.zh-CN-4a4818e98c1978d2419ab19fabcba740.js"></script>
+
+<link rel="stylesheet" media="all" href="https://assets.gitee.com/assets/projects/application-705b8d764a3d4201795216aad0ed4b70.css" />
+<script src="https://assets.gitee.com/assets/projects/app-08bfe48e343fa83d336cf96ad5e929a3.js"></script>
+
+<script src="//res.wx.qq.com/open/js/jweixin-1.2.0.js"></script>
+<script>
+  var title = document.title.replace(/( - Gitee| - 码云)$/, '')
+      imgUrl = '';
+  
+  document.addEventListener('DOMContentLoaded', function(event) {
+    var imgUrlEl = document.querySelector('.readme-box .markdown-body > img, .readme-box .markdown-body :not(a) > img');
+    imgUrl = imgUrlEl && imgUrlEl.getAttribute('src');
+  
+    if (!imgUrl) {
+      imgUrlEl = document.querySelector('meta[itemprop=image]');
+      imgUrl = imgUrlEl && imgUrlEl.getAttribute('content');
+      imgUrl = imgUrl || "https://gitee.com/static/images/logo_themecolor.png";
+    }
+  
+    wx.config({
+      debug: false,
+      appId: "wxff219d611a159737",
+      timestamp: "1635229686",
+      nonceStr: "1b695a44e50bc84d213e313c8077d8f1",
+      signature: "7486e5c29069a23f4a526b88ba0c7e6ca33f7547",
+      jsApiList: [
+        'onMenuShareTimeline',
+        'onMenuShareAppMessage'
+      ]
+    });
+  
+    wx.ready(function () {
+      wx.onMenuShareTimeline({
+        title: title, // 分享标题
+        link: "https://gitee.com/tm147/tv/edit/master/bj.txt", // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
+        imgUrl: imgUrl // 分享图标
+      });
+      wx.onMenuShareAppMessage({
+        title: title, // 分享标题
+        link: "https://gitee.com/tm147/tv/edit/master/bj.txt", // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
+        desc: document.querySelector('meta[name=Description]').getAttribute('content'),
+        imgUrl: imgUrl // 分享图标
+      });
+    });
+    wx.error(function(res){
+      console.error('err', res)
+    });
+  })
+</script>
+
+<script type='text/x-mathjax-config'>
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [["$$","$$"],["\\[","\\]"]],
+    processEscapes: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+    ignoreClass: "container|files",
+    processClass: "markdown-body"
+  }
+});
+</script>
+<script src="https://assets.gitee.com/uploads/resources/MathJax-2.7.2/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+<script>
+  (function () {
+    var messages = {
+      'zh-CN': {
+        addResult: '增加 <b>{term}</b>',
+        count: '已选择 {count}',
+        maxSelections: '最多 {maxCount} 个选择',
+        noResults: '未找到结果',
+        serverError: '连接服务器时发生错误'
+      },
+      'zh-TW': {
+        addResult: '增加 <b>{term}</b>',
+        count: '已選擇 {count}',
+        maxSelections: '最多 {maxCount} 個選擇',
+        noResults: '未找到結果',
+        serverError: '連接服務器時發生錯誤'
+      }
+    }
+  
+    if (messages[gon.locale]) {
+      $.fn.dropdown.settings.message = messages[gon.locale]
+    }
+  }());
+</script>
+
+<script>
+  var userAgent = navigator.userAgent;
+  var isLessIE11 = userAgent.indexOf('compatible') > -1 && userAgent.indexOf('MSIE') > -1;
+  if(isLessIE11){
+    var can_access = ""
+    if (can_access != "true"){
+      window.location.href = "/incompatible.html";
+    }
+  }
+  document.addEventListener("error", function (ev) {
+    var elem = ev.target;
+    if (elem.tagName.toLowerCase() === 'img') {
+      elem.src = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAAAAACIM/FCAAACh0lEQVR4Ae3ch5W0OgyG4dt/mQJ2xgQPzJoM1m3AbALrxzrf28FzsoP0HykJEEAAAUQTBBBAAAEEEEAAAQQQQAABBBBAAAEEEEAAAQQQQAABBBBAAAEEkKK0789+GK/I2ezfQB522PnS1qc8pGgXvr4tE4aY0XOUWlGImThWgyCk6DleixzE7qwBkg/MGiDPlVVAyp1VQGrPKiACDhFI6VkF5LmzCki+sg7IwDoglnVAil0IMkeG9CyUiwsxLFUVFzJJOQaKCjFCDN9RXMjIX7W6ztZXZDKKCyn8sWJvH+nca7WHDN9lROlAliPH9iRKCPI4cswFJQWxB46toLQgQ9jhn5QYZA9DOkoMUoQde5YapAxDWkoNYsOQR3KQd9CxUnIQF4S49CB9ENKlBxmDEKsFUgMCCCCAAHIrSF61f6153Ajy8nyiPr8L5MXnmm4CyT2fzN4DUvHZ+ntA2tOQBRBAAAEEEEAAAQQQ7ZBaC6TwSiDUaYHQ2yuB0MN+ft+43whyrs4rgVCjBUKTFshLC6TUAjGA3AxSaYFYLZBOC2RUAsk8h5qTg9QcbEoOsoQhQ2qQhsO5xCD5dgB5JQaZ+KBKGtKecvR81Ic0ZDjByKdDx0rSEDZ/djQbH+bkIdvfJFm98BfV8hD2zprfVdlu9PxVeyYAkciREohRAplJCaRSAplJCcQogTjSAdlyHRBvSAekJR0QRzogA+mADJkOiCPSAPEtqYBshlRAXC43hxix2QiOuEZkVERykGyNo9idIZKE0HO7XrG6OiMShlDWjstVzdPgXtUH9v0CEidAAAEEEEAAAQQQQAABBBBAAAEEEEAAAQQQQAABBBBAAAEEEEAAAQQQQP4HgjZxTpdEii0AAAAASUVORK5CYII=";
+    }
+  }, true);
+</script>
+</head>
+
+<body class='git-project lang-zh-CN large'>
+<header class='common-header fixed noborder' id='git-header-nav'>
+<div class='ui container'>
+<div class='ui menu header-menu header-container'>
+<div class='git-nav-expand-bar'>
+<i class='iconfont icon-mode-table'></i>
+</div>
+<div class='gitee-nav__sidebar'>
+<div class='gitee-nav__sidebar-container'>
+<div class='gitee-nav__sidebar-top'>
+<div class='gitee-nav__avatar-box'>
+<a href="/tm147"><img class="ui avatar image tm147-avatar" avatar="谭明-tm147" />
+</a></div>
+<div class='gitee-nav__info-box'>
+<a href="/tm147">谭明</a>
+</div>
+</div>
+<div class='gitee-nav__sidebar-middle'>
+<div class='gitee-nav__sidebar-list'>
+<ul>
+<li class='gitee-nav__sidebar-item'>
+<a href="/tm147"><i class='iconfont icon-ic-dashboard'></i>
+<span class='gitee-nav__sidebar-name'>个人主页</span>
+</a></li>
+<li class='gitee-nav__sidebar-item'>
+<a href="/explore"><i class='iconfont icon-ic-discover'></i>
+<span class='gitee-nav__sidebar-name'>开源软件</span>
+</a></li>
+<li class='gitee-nav__sidebar-item'>
+<a href="/enterprises"><i class='iconfont icon-ic-enterprise'></i>
+<span class='gitee-nav__sidebar-name'>企业版</span>
+</a></li>
+<li class='gitee-nav__sidebar-item'>
+<a href="/education"><i class='iconfont icon-ic-education'></i>
+<span class='gitee-nav__sidebar-name'>高校版</span>
+</a></li>
+<li class='gitee-nav__sidebar-item split-line'></li>
+<li class='gitee-nav__sidebar-item'>
+<a href="/search"><i class='iconfont icon-ic-search'></i>
+<span class='gitee-nav__sidebar-name'>搜索</span>
+</a></li>
+<li class='gitee-nav__sidebar-item'>
+<a href="/help"><i class='iconfont icon-help-circle'></i>
+<span class='gitee-nav__sidebar-name'>帮助中心</span>
+</a></li>
+<li class='gitee-nav__sidebar-item'>
+<a href="/terms"><i class='iconfont icon-file'></i>
+<span class='gitee-nav__sidebar-name'>使用条款</span>
+</a></li>
+<li class='gitee-nav__sidebar-item'>
+<a href="/about_us"><i class='iconfont icon-issuepx'></i>
+<span class='gitee-nav__sidebar-name'>关于我们</span>
+</a></li>
+<li class='gitee-nav__sidebar-item'>
+<a href="/profile/account_information"><i class='iconfont icon-edit'></i>
+<span class='gitee-nav__sidebar-name'>设置</span>
+</a></li>
+<li class='gitee-nav__sidebar-item'>
+<a rel="nofollow" data-method="delete" href="/logout"><i class='iconfont icon-ic-logout'></i>
+<span class='gitee-nav__sidebar-name'>
+退出
+</span>
+</a></li>
+</ul>
+</div>
+</div>
+<div class='gitee-nav__sidebar-bottom'>
+<div class='gitee-nav__sidebar-close-button'>
+<i class='fa fa-angle-double-left'></i>
+</div>
+</div>
+</div>
+</div>
+
+<div class='item gitosc-logo'>
+<a href="/"><img alt='Gitee — 基于 Git 的代码托管和研发协作平台' class='ui inline image' height='28' src='/static/images/logo.svg?t=158106664' title='Gitee — 基于 Git 的代码托管和研发协作平台' width='95'>
+<img alt='Gitee — 基于 Git 的代码托管和研发协作平台' class='ui inline black image' height='28' src='/static/images/logo-black.svg?t=158106664' title='Gitee — 基于 Git 的代码托管和研发协作平台' width='95'>
+</a></div>
+<a title="开源软件" class="item " href="/explore">开源软件
+</a><a title="企业版" class="item " href="/enterprises">企业版
+<sup class='ui red label'>
+免费
+</sup>
+</a><a title="高校版" class="item " href="/education">高校版
+</a><a title="私有云" class="item" target="_blank" href="https://gitee.cn?utm_source=giteecom">私有云
+</a><a title="博客" class="item" id="gitee-blog" target="_blank" href="https://blog.gitee.com/">博客
+</a><div class='dropdown item loading ui' id='my-gitee-dropdown'>
+<a href="/">我的</a>
+<i class='dropdown icon'></i>
+<div class='menu'>
+<div class='header user-enterprises'>
+<a class="pull-right" target="_blank" href="/tm147/dashboard/enterprises">全部</a>
+企业
+<span class='count'></span>
+</div>
+<div class='disabled item tip user-enterprises'>
+无企业
+</div>
+<div class='header user-groups'>
+<a class="pull-right" target="_blank" href="/tm147/dashboard/groups">全部</a>
+组织
+<span class='count'></span>
+</div>
+<div class='disabled item tip user-groups'>
+无组织
+</div>
+<div class='header user-programs'>
+项目
+<span class='count'></span>
+</div>
+<div class='disabled item tip user-programs'>
+<span class="translation_missing" title="translation missing: zh-CN.layouts.header.empty_programs">Empty Programs</span>
+</div>
+<div class='header user-projects'>
+<a class="pull-right" target="_blank" href="/tm147/projects">全部</a>
+仓库
+<span class='count'></span>
+</div>
+<div class='disabled item tip user-projects'>
+无项目
+</div>
+</div>
+</div>
+<div class='center responsive-logo'>
+<a href="/"><img alt='Gitee — 基于 Git 的代码托管和研发协作平台' class='ui inline image' height='24' src='/static/images/logo.svg?t=158106664' title='Gitee — 基于 Git 的代码托管和研发协作平台' width='85'>
+<img alt='Gitee — 基于 Git 的代码托管和研发协作平台' class='ui inline black image' height='24' src='/static/images/logo-black.svg?t=158106664' title='Gitee — 基于 Git 的代码托管和研发协作平台' width='85'>
+</a></div>
+<div class='right menu userbar right-header' id='git-nav-user-bar'>
+<form class="ui item" id="navbar-search-form" data-text-require="搜索关键字不能少于1个" data-text-filter="搜索格式不正确" action="/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+<input type="hidden" name="type" id="navbar-search-type" />
+<input type="hidden" name="fork_filter" id="fork_filter" value="on" />
+<div class='ui search header-search'>
+<input type="text" name="q" id="navbar-search-input" value="" class="prompt" placeholder="搜开源" />
+</div>
+</form>
+
+<script>
+  var can_search_in_repo = 1,
+      repo = "VFZSbk1rMUVVWHBQVkVab1RucFplbHBuUFQxaE56WXpaZz09YTc2M2Y=",
+      reponame = "tm147/tv";
+  
+  $(function() {
+    var $search = $('#navbar-search-form .ui.search');
+    $search.search({
+      apiSettings: {
+        url: '/search/relative_project?q={query}',
+        onResponse: function (res) {
+          if (res && res.status === 200 && res.data) {
+            var query = htmlSafe($search.search('get value'));
+  
+            res.data.map(function (item) {
+              item.path_ns = '/' + item.path_ns;
+              item.icon = 'iconfont icon-project-public';
+            });
+            res.data.unshift({
+              name_ns: "在全站搜索 <b class='hl'>" + query +"</b> 相关项目",
+              path_ns: '/search?fork_filter=on&q=' + query,
+              icon: 'iconfont icon-search'
+            });
+            return res;
+          } else {
+            return { data: [] };
+          }
+        }
+      },
+      fields: {
+        results: 'data',
+        description: 'name_ns',
+        url: 'path_ns',
+        icon: 'icon'
+      },
+      minCharacters: 1,
+      maxResults: 10,
+      searchDelay: 250,
+      showNoResults: false,
+      transition: 'fade'
+    });
+  });
+</script>
+
+<div class='item ui dropdown empty' data-count-path='/notifications/unread_count' data-enable data-mark-notice-path='/notifications/mark' id='notice-dropdown'>
+<a class="remind-button" href="/notifications"><i class='iconfont icon-remind'></i>
+<div class='notice-count total'></div>
+</a><div class='notice-dropdown-panel menu'>
+<div class='notice-dropdown-panel-header'>
+<div class='tab active' data-data-path='/notifications/notices?scope=referer' data-html-path='/notifications/referer' data-scope='referer'>
+<div class='content'>
+@ 我
+<div class='notice-count referer'></div>
+</div>
+</div>
+<div class='tab' data-data-path='/notifications/notices?scope=infos' data-html-path='/notifications/infos' data-scope='infos'>
+<div class='content'>
+通知
+<div class='notice-count infos'></div>
+</div>
+</div>
+<div class='tab' data-data-path='/notifications/notices?scope=messages' data-html-path='/notifications/messages' data-scope='messages'>
+<div class='content'>
+私信
+<div class='notice-count messages'></div>
+</div>
+</div>
+</div>
+<div class='item notice-dropdown-panel-container'>
+<div class='ui dimmer over active'>
+<div class='ui loader'></div>
+</div>
+<div class='notice-list'></div>
+<div class='notice-dropdown-panel-blank'>
+暂没有新消息
+</div>
+</div>
+<div class='notice-dropdown-panel-footer'>
+<div class='action'>
+<div class='side left'>
+<a class="mark-notices" href="javascript: void(0);">当前标记为已读
+</a></div>
+<div class='side right'>
+<a class="load-all" target="_blank" href="javascript: void(0);">查看全部
+</a></div>
+</div>
+</div>
+</div>
+</div>
+
+<div class='ui item' id='feature-update-notice'>
+<div class='notice-update-icon'>
+<a class="notice-update-popup click-knowed" title="" href="javascript:void(0)"><img alt="功能更新" title="" class="bubl_icon bubl-off-icon" src="https://assets.gitee.com/assets/bulb_off-24ee940be20998aace89a3f040cbc704.svg" />
+<img alt="功能更新" title="" class="bubl_icon bubl-on-icon" src="https://assets.gitee.com/assets/bulb_on-3986b1dc417285398e3d15671bd8f261.svg" />
+</a></div>
+<div class='feature-update-notice-panel menu'>
+<div class='notice-img'>
+<img alt="" title="" class="notice-img-show" src="" />
+</div>
+<div class='notice-update-title'></div>
+<div class='notice-update-des'></div>
+<div class='notice-btn-list d-flex-between'>
+<button name="button" type="button" class="ui basic orange button btn-notice btn-knowed click-knowed" style="margin-right: 0">我知道了</button>
+<a class="ui button orange btn-notice btn-details click-knowed" target="_blank" href="">查看详情</a>
+</div>
+</div>
+</div>
+
+<div class='ui dropdown link item' id='git-nav-create'>
+<i class='iconfont icon-add-thin'></i>
+<div class='right menu'>
+<a class="item" href="/projects/new"><i class='add square icon'></i>
+新建仓库
+</a><a class="item" href="/tm147/codes/new"><i class='code icon'></i>
+发布代码片段
+</a><a class="item" href="/organizations/new"><i class='group icon'></i>
+创建组织
+</a><a class="item" href="/enterprises/new"><i class='icon iconfont icon-enterprise'></i>
+开通企业版
+</a><a class="item" href="/projects/import/url"><i class='github icon'></i>
+从 GitHub / GitLab 导入仓库
+</a></div>
+</div>
+<div class='ui dropdown item' id='git-nav-user'>
+<img class="ui avatar image" avatar="谭明-tm147" />
+<i class='dropdown icon'></i>
+<div class='right menu'>
+<a class="item" href="/tm147"><i class='iconfont icon-ic-home'></i>
+个人主页
+</a><a class="item" href="/tm147/starred"><i class='iconfont icon-star'></i>
+我的星选集
+</a><a class="item" href="/profile/account_information"><div class='mayun-icon my-ic-edit my-ic-edit-dims'></div>
+设置
+</a><div class='divider'></div>
+<a class="item" target="_blank" href="https://gitee.com/help"><div class='mayun-icon my-ic-help my-ic-help-dims'></div>
+帮助
+</a><div class='divider'></div>
+<a class="item destroy-user-session" rel="nofollow" data-method="delete" href="/logout"><div class='mayun-icon my-ic-exit my-ic-exit-dims'></div>
+退出
+</a></div>
+</div>
+<script>
+  $('.destroy-user-session').on('click', function() {
+    $.cookie('access_token', null, { path: '/' });
+  })
+</script>
+
+</div>
+</div>
+</div>
+</header>
+<script>
+  Gitee.initNavbar()
+  Gitee.initRepoRemoteWay()
+  $.cookie('user_locale',null)
+</script>
+
+<script>
+  var userAgent = navigator.userAgent;
+  var isLessIE11 = userAgent.indexOf('compatible') > -1 && userAgent.indexOf('MSIE') > -1;
+  if(isLessIE11){
+    var can_access = ""
+    if (can_access != "true"){
+      window.location.href = "/incompatible.html";
+    }
+  }
+</script>
+
+<div class='fixed-notice-infos'>
+<div class='all-messages'>
+</div>
+<div class='ui container'>
+<div class='flash-messages' id='messages-container'></div>
+</div>
+<script>
+  (function() {
+    $(function() {
+      var $error_box, alertTip, notify_content, notify_options, template;
+      template = '<div data-notify="container" class="ui {0} message" role="alert">' + '<i data-notify="dismiss" class="close icon"></i>' + '<span data-notify="message">{2}</span>' + '</div>';
+      notify_content = null;
+      notify_options = {};
+      alertTip = '';
+      $error_box = $(".flash_error.flash_error_box");
+      if (notify_options.type === 'error' && $error_box.length > 0 && !$.isEmptyObject(notify_content.message)) {
+        if (notify_content.message === 'captcha_fail') {
+          alertTip = "验证码不正确";
+        } else if (notify_content.message === 'captcha_expired') {
+          alertTip = "验证码已过期，请点击刷新";
+        } else if (notify_content.message === 'not_found_in_database') {
+          alertTip = "帐号或者密码错误";
+        } else if (notify_content.message === 'not_found_and_show_captcha') {
+          alertTip = "帐号或者密码错误";
+        } else if (notify_content.message === 'phone_captcha_fail') {
+          alertTip = "手机验证码不通过";
+        } else {
+          alertTip = notify_content.message;
+        }
+        return $error_box.html(alertTip).show();
+      } else if (notify_content) {
+        if ("edit" === 'third_party_binding') {
+          return $('#third_party_binding-message').html(notify_content.message).addClass('ui message red');
+        }
+        notify_options.delay = 3000;
+        notify_options.template = template;
+        notify_options.offset = {
+          x: 10,
+          y: 30
+        };
+        notify_options.element = '#messages-container';
+        return $.notify(notify_content, notify_options);
+      }
+    });
+  
+  }).call(this);
+</script>
+
+</div>
+<script>
+  (function() {
+    $(function() {
+      var setCookie;
+      setCookie = function(name, value) {
+        $.cookie(name, value, {
+          path: '/',
+          expires: 365
+        });
+      };
+      $('#remove-bulletin, #remove-bulletin-dashboard').on('click', function() {
+        setCookie('remove_bulletin', "gitee-maintain-1632471499");
+        $('#git-bulletin').hide();
+      });
+      $('#remove-member-bulletin').on('click', function() {
+        setCookie('remove_member_bulletin', "gitee_member_bulletin");
+        $(this).parent().hide();
+      });
+      return $('#remove-gift-bulletin').on('click', function() {
+        setCookie('remove_gift_bulletin', "gitee-gift-bulletin");
+        $(this).parent().hide();
+      });
+    });
+  
+  }).call(this);
+</script>
+<script>
+  function closeMessageBanner(pthis, type, val) {
+    var json = {}
+  
+    val = typeof val === 'undefined' ? null : val
+    $(pthis).parent().remove()
+    if (type === 'out_of_enterprise_member') {
+      json = {type: type, data: val}
+    } else if (type === 'enterprise_overdue') {
+      json = {type: type, data: val}
+    }
+    $.post('/profile/close_flash_tip', json)
+  }
+</script>
+
+<div class='site-content'>
+<div class='git-project-header'>
+<div class='fixed-notice-infos'>
+<div class='ui info icon floating message green' id='fetch-ok' style='display: none'>
+<div class='content'>
+<div class='header status-title'>
+<i class='info icon status-icon'></i>
+代码拉取完成，页面将自动刷新
+</div>
+</div>
+</div>
+<div class='ui info icon floating message error' id='fetch-error' style='display: none'>
+<div class='content'>
+<div class='header status-title'>
+<i class='info icon status-icon'></i>
+<span class='error_msg'></span>
+</div>
+</div>
+</div>
+</div>
+<div class='ui container'>
+
+<div class='git-project-header-details'>
+<div class='git-project-header-container'>
+<div class='git-project-header-actions'>
+<div class='ui tiny modal project-donate-modal' id='project-donate-modal'>
+<i class='iconfont icon-close close'></i>
+<div class='header'>捐赠</div>
+<div class='content'>
+未开启捐赠功能，开启捐赠功能需要绑定 OSCHINA 帐号
+</div>
+<div class='actions'>
+<a class='ui blank button cancel'>取消</a>
+<a class='ui orange ok button' href='/profile/account_information' target='_blank'>马上绑定</a>
+</div>
+</div>
+<div class='ui small modal wepay-qrcode'>
+<i class='iconfont icon-close close'></i>
+<div class='header'>
+扫描微信二维码支付
+<span class='wepay-cash'></span>
+</div>
+<div class='content weqcode-center'>
+<img id='wepay-qrcode' src=''>
+</div>
+<div class='actions'>
+<div class='ui cancel blank button'>取消</div>
+<div class='ui ok orange button'>支付完成</div>
+</div>
+</div>
+<div class='ui mini modal' id='confirm-alipay-modal'>
+<div class='header'>支付提示</div>
+<div class='content'>
+将跳转至支付宝完成支付
+</div>
+<div class='actions'>
+<div class='ui approve orange button'>确定</div>
+<div class='ui blank cancel button'>取消</div>
+</div>
+</div>
+
+<span class='ui buttons basic watch-container'>
+<div class='ui dropdown button js-project-watch' data-watch-type='watching'>
+<input type='hidden' value=''>
+<i class='iconfont icon-watch'></i>
+<div class='text'>
+Watching
+</div>
+<i class='dropdown icon'></i>
+<div class='menu'>
+<a data-value="unwatch" class="item" data-remote="true" rel="nofollow" data-method="post" href="/tm147/tv/unwatch"><i class='iconfont icon-msg-read'></i>
+不关注
+</a><a data-value="watching" class="item" data-remote="true" rel="nofollow" data-method="post" href="/tm147/tv/watch"><i class='iconfont icon-msg-read'></i>
+关注所有动态
+</a><a data-value="releases_only" class="disabled item" data-remote="true" rel="nofollow" data-method="post" href="/tm147/tv/release_only_watch"><i class='iconfont icon-msg-read'></i>
+仅关注版本发行动态
+</a><a data-value="ignoring" class="item" data-remote="true" rel="nofollow" data-method="post" href="/tm147/tv/ignoring_watch"><i class='iconfont icon-msg-read'></i>
+关注但不提醒动态
+</a></div>
+</div>
+<style>
+  .js-project-watch .text .iconfont {
+    display: none; }
+  .js-project-watch a, .js-project-watch a:hover {
+    color: #000; }
+  .js-project-watch .item > .iconfont {
+    visibility: hidden;
+    margin-left: -10px; }
+  .js-project-watch .selected .iconfont {
+    visibility: visible; }
+  .js-project-watch .menu {
+    margin-top: 4px !important; }
+</style>
+<script>
+  $('.js-project-watch').dropdown({
+    action: 'select',
+    onChange: function(value, text, $selectedItem) {
+      var type = value === 'unwatch' ? 'Watch' : 'Watching';
+      $(this).children('.text').text(type);
+      $(this).dropdown('set selected', value)
+    }
+  });
+</script>
+
+<a class="ui button action-social-count" title="1" href="/tm147/tv/watchers">1
+</a></span>
+<span class='basic buttons star-container ui'>
+<a class="ui button unstar " sa_evt="clickStar" sa_location="其他" sa_url="" sa_repo_id="18604391" data-remote="true" rel="nofollow" data-method="post" href="/tm147/tv/unstar"><i class='iconfont icon-star-solid'></i>
+Starred
+</a><a class="ui button star " sa_evt="clickStar" sa_location="其他" sa_url="" sa_repo_id="18604391" data-remote="true" rel="nofollow" data-method="post" href="/tm147/tv/star"><i class='iconfont icon-star'></i>
+Star
+</a><a class="ui button action-social-count " title="0" href="/tm147/tv/stargazers">0
+</a></span>
+<span class='ui basic buttons fork-container' title=''>
+<a id="fork-top-button" class="ui button fork " sa_evt="repoFork" sa_repo_id="18604391" sa_is_self="true" sa_is_member="true" href="#"><i class='iconfont icon-fork'></i>
+Fork
+</a><a class="ui button action-social-count " title="0" href="/tm147/tv/members">0
+</a></span>
+</div>
+<h2 class='git-project-title mt-0 mb-0'>
+<span class="project-title"><i class="project-icon iconfont icon-project-public" title="这是一个公开仓库"></i> <a title="谭明" class="author" href="/tm147">谭明</a> / <a title="tv" class="repository" target="" style="padding-bottom: 0px; margin-right: 4px" sa_evt="repoClick" sa_location="其他" sa_url="" sa_repo_id="18604391" href="/tm147/tv">tv</a></span><span class="project-badges"><a data-confirm="1.你的自荐申请将由我们人工审核，介绍完善、质量高的项目才能被推荐 &lt;br/&gt; 2.编辑可能会根据需要来调整推荐软件的描述信息 &lt;br/&gt; 3.申请提交后，&lt;strong&gt;如一个工作日内未得到推荐，则默认表示被拒&lt;/strong&gt;。" title="自荐" class="git-project-recommend-badge" rel="nofollow" data-method="post" href="/tm147/tv/recomm_self"><i class='iconfont icon-recommend recommend-icon'></i>
+</a><style>
+  .gitee-modal {
+    width: 500px !important; }
+</style>
+</span>
+<input type="hidden" name="project_title" id="project_title" value="谭明/tv" />
+</h2>
+</div>
+</div>
+</div>
+<div class='ui small modal long' id='modal-fork-project'>
+<i class='icon-close iconfont close'></i>
+<div class='header'>
+Fork 仓库
+</div>
+<div class='content'>
+<div class='fork-info-content'>
+<div class='ui segment fork_project_loader'>
+<div class='ui active inverted dimmer'>
+<div class='ui text loader'>加载中</div>
+</div>
+</div>
+</div>
+</div>
+<div class='actions fork-action hide'>
+<a class='cancel'>&emsp;取消&emsp;</a>
+<div class='ui disabled large button orange ok'>&emsp;确认&emsp;</div>
+</div>
+</div>
+<script>
+  var title_import_url = "false";
+  var title_post_url = "/tm147/tv/update_import";
+  var title_fork_url = "/tm147/tv/sync_fork";
+  var title_project_path = "tv";
+  var title_p_name = "tv";
+  var title_p_id= "18604391";
+  var title_description = "";
+  var title_form_authenticity_token = "Odyb/ugAHRuJf44DNecmFQZgb7us+iMds7feOAYnYqMRdYkBgqIFUFXF3Z2ofCR5UuATdXXBGTmfkkzAOt92KA==";
+  var watch_type = "watching";
+  
+  $('.js-project-watch').dropdown('set selected', watch_type);
+  $('.checkbox.sync-wiki').checkbox();
+</script>
+<script>
+  $(function () {
+    // SemticUI 校验表单等地方要求直接return 值, 对异步支持非常不友好...
+    // 从提交表单处 再用异步校验 ,控制是否提交
+    var $modalFork = $('#modal-fork-project');
+    var $okBtn = $modalFork.find('.ui.ok.button');
+    var $currentTarget = null;
+    var isSameProject = false;
+  
+    $('#fork-top-button, #fork-btm-button').on('click', function (e) {
+      e.preventDefault();
+      $modalFork.modal('show');
+      setTimeout(function () {
+        $.ajax({ url: '/tm147/tv/fork_project_info' }).done(function () {
+          // 自定义错误消息模板,  inline : true 每个输入框后面都插入消息提示, 而非集中到一处提醒
+          $.fn.form.settings.templates.prompt = function (errors) {
+            return $('<div />').addClass('ui error message custom prompt label').html(errors[0]);
+          };
+          // 表单的内容是异步传输的js动态生成的....
+          var $repoForm = $('#modal-fork-project .repo-form');
+          $repoForm.form({
+            on: 'change',
+            inline: true,
+            fields: {
+              projectName: {
+                identifier: 'project-name',
+                rules: [
+                  {
+                    type: 'empty',
+                    prompt: "仓库名不能为空"
+                  },
+                  {
+                    type: 'regExp',
+                    value: window.giteeRegex.projectName,
+                    prompt: "仓库名只允许包含中文、字母、数字或者下划线(_)、中划线(-)、英文句号(.)、加号(+)，必须以字母或数字开头，不能以下划线/中划线结尾，且长度为2~191个字符"
+                  },
+                  {
+                    type: 'maxLength[255]',
+                    prompt: "仓库名只允许包含中文、字母、数字或者下划线(_)、中划线(-)、英文句号(.)、加号(+)，必须以字母或数字开头，不能以下划线/中划线结尾，且长度为2~191个字符"
+                  }
+                ]
+              },
+              projectPath: {
+                identifier: 'project-path',
+                rules: [
+                  {
+                    type: 'empty',
+                    prompt: "路径不能为空"
+                  },
+                  {
+                    type: 'regExp',
+                    value: window.giteeRegex.projectPath,
+                    prompt: "路径只允许包含字母、数字或者下划线(_)、中划线(-)、英文句号(.)，必须以字母开头，且长度为2~191个字符"
+                  }
+                ]
+              }
+            }
+          });
+  
+          $modalFork.find('.namespace-img-area.ui.checkbox').checkbox({
+            onChecked: function () {
+              $currentTarget = $(this).closest('.ui.checkbox');
+              // 当前选中的空间
+              isSameProject = $currentTarget[0].hasAttribute('data-any-same-projects');
+              var conflictProjectName = $currentTarget.data('conflict-project-title');
+              var conflictProjectUrl = $currentTarget.data('conflict-project-url');
+              var conflictProjectNameSpacePath = $currentTarget.data('conflict-namespace');
+              var conflictPathType = $currentTarget.find('.path-type').text();
+              // fork目标
+              var targetProjectName = $currentTarget.data('target-project-name');
+              var targetProjectPath = $currentTarget.data('target-project-path');
+              // 命名空间名称(@xxx)
+              var conflictNameSpaceName = $currentTarget.find('.path-name').text();
+              var $forkTargetNamespace = $('.fork-target-namespace-area');
+              // 冲突 显示修改表单
+              if (isSameProject) {
+                $forkTargetNamespace.addClass('same-name-editing');
+                $forkTargetNamespace
+                  .find('.conflict-namespace-name')
+                  .attr('href', `/${conflictProjectNameSpacePath}`)
+                  .text(conflictNameSpaceName);
+                $forkTargetNamespace
+                  .find('.conflict-path')
+                  .attr('href', `${conflictProjectUrl}`)
+                  .text(conflictProjectUrl);
+                $forkTargetNamespace
+                  .find('.prefix-path')
+                  .text(`${window.location.origin}/${conflictProjectNameSpacePath}/`);
+                $forkTargetNamespace
+                  .find('.conflict-path-type')
+                  .text(conflictPathType.toLowerCase())
+                var $nameInput = $forkTargetNamespace.find('[name="project-name"]');
+                var $pathInput = $forkTargetNamespace.find('[name="project-path"]');
+                $nameInput.val(targetProjectName);
+                $pathInput.val(targetProjectPath);
+                // 立即校验一次
+                asyncValidateForkRepoForm();
+              } else {
+                $forkTargetNamespace.removeClass('same-name-editing');
+              }
+              $okBtn.removeClass('disabled');
+            }
+          });
+        });
+      }, 500);
+    });
+    // 异步校验
+    function asyncValidateForkRepoForm (successCallback) {
+      var $repoForm = $('#modal-fork-project .repo-form');
+      var $forkTargetNamespace = $('.fork-target-namespace-area');
+      var name = $forkTargetNamespace.find('[name="project-name"]').val().trim();
+      var path = $forkTargetNamespace.find('[name="project-path"]').val().trim();
+      var namespace = $currentTarget ? $currentTarget.data('conflict-namespace') : '';
+      if (!name || !path) return;
+      $okBtn.addClass('loading');
+      $.ajax('/projects/check_fork_form', {
+        type: 'get',
+        data: { project_name: name, project_path: path, target_namespaces: namespace },
+        success: function (data) {
+          if (data.status == 0) {
+            successCallback && successCallback();
+          } else if (data.status == -1 && Array.isArray(data.conflict_keys)) {
+            data.conflict_keys.includes('name') && $repoForm.form('add prompt', 'project-name', "已存在相同仓库名");
+            data.conflict_keys.includes('path') && $repoForm.form('add prompt', 'project-path', "已存在相同路径");
+          } else {
+            Flash.error("校验失败");
+          }
+        },
+        error: function (err) {
+          Flash.error(err.responseJSON.message);
+        },
+        complete: function () {
+          $okBtn.removeClass('loading');
+          // 添加提示 弹窗变高后 刷新弹窗位置
+          $modalFork.modal('refresh');
+        }
+      });
+    }
+    function forkSubmit () {
+      $modalFork.modal('hide');
+      // 构造一些 input 用于表单提交
+      var $form = $('<form></form>');
+      var $input = $('<input type="hidden" name="authenticity_token" />');
+      var $inputCheck = $('<input type="hidden" name="members" />');
+      var $inputCheck2 = $('<input type="hidden" name="namespace_path" />');
+      var checkedPath = $('.checkbox.checked > input[name=namespace_path]').val();
+      // fork存在冲突, 修改后的表单:
+      if (isSameProject) {
+        // 获取最新表单数据
+        var $forkTargetNamespace = $('.fork-target-namespace-area');
+        var name = $forkTargetNamespace.find('[name="project-name"]').val().trim();
+        var path = $forkTargetNamespace.find('[name="project-path"]').val().trim();
+        var $projectName = $('<input type="hidden" name="name" />');
+        var $projectPath = $('<input type="hidden" name="path" />');
+        $projectName.val(name);
+        $projectPath.val(path);
+        $form.append($projectName);
+        $form.append($projectPath);
+      }
+      $form.hide();
+      $form.attr('method', 'post');
+      $form.attr('action', '/' + checkedPath + '/fork_project/tm147/tv');
+      $input.attr('value', $('meta[name="csrf-token"]').attr('content'));
+      $inputCheck.attr('value', $('.checkbox.checked > input[name=members]').val());
+      $inputCheck2.attr('value', checkedPath);
+      $form.append($input);
+      $form.append($inputCheck);
+      $form.append($inputCheck2);
+      $form.appendTo('body');
+      $form.submit();
+    }
+    $modalFork.modal({
+      transition: 'fade',
+      closable: true,
+      centered: false,
+      observeChanges:true,
+      onApprove: function () {
+        // 存在同名冲突时, 需要修改仓库信息, 再进行校验同名
+        // 判断当前选中的空间类型, 用于决定是否需要修改路径仓库名,验证表单
+        if (isSameProject) {
+          var $repoForm = $('#modal-fork-project .repo-form');
+          $repoForm.form('validate form');
+          var isRepoInfoValid = $repoForm.form('is valid'); // 前端校验通过
+          // 由于是form提交和ajax检测结合..., 防止意外篡改 提交前必定校验一次, 通过后自动submit
+          if (isRepoInfoValid) {
+            // SemticUI add prompt 自定义验证连续执行太快, 会消失掉重复再出现再消失.
+            setTimeout(function () {
+              asyncValidateForkRepoForm(function () {
+                forkSubmit();
+              });
+            }, 200);
+          } else {
+            $repoForm.form('validate form');
+          }
+        } else {
+          // 正常 frok
+          forkSubmit();
+        }
+        return false;
+      }
+    });
+    $modalFork.find('.close-button').on('click', function () {
+      $modalFork.modal('hide');
+    });
+  });
+</script>
+<style>
+  i.loading {
+    -webkit-animation: icon-loading 1.2s linear infinite;
+    animation: icon-loading 1.2s linear infinite;
+  }
+  .qrcode_cs {
+    float: left;
+  }
+  .check-sync-wiki {
+    float: left;
+    height: 28px;
+    line-height: 28px;
+  }
+  .sync-wiki-warn {
+    color: #e28560;
+  }
+</style>
+
+<div class='git-project-nav'>
+<div class='ui container'>
+<div class='ui secondary pointing menu'>
+<a class="item active" href="/tm147/tv"><i class='iconfont icon-code'></i>
+代码
+</a><a class="item " href="/tm147/tv/issues"><i class='iconfont icon-task'></i>
+Issues
+<span class='ui mini circular label'>
+0
+</span>
+</a><a class="item big-wide " href="/tm147/tv/pulls"><i class='iconfont icon-pull-request'></i>
+Pull Requests
+<span class='ui mini circular label'>
+0
+</span>
+</a><a class="item " href="/tm147/tv/wikis"><i class='iconfont icon-wiki'></i>
+Wiki
+</a><a class="item  " href="/tm147/tv/repository/stats/master"><i class='iconfont icon-statistics'></i>
+统计
+</a><div class='item project-devops-item'>
+<div class='ui pointing top right dropdown project-devops-dropdown'>
+<div class='text'>
+<i class='iconfont icon-devops'></i>
+DevOps
+</div>
+<i class='dropdown icon'></i>
+<div class='menu' style='display:none'>
+<a class="item" href="/tm147/tv/gitee_go"><img src="https://assets.gitee.com/assets/giteego-7ec42270742374f05850d0d3ad09e303.png" alt="Giteego" />
+<div class='item-title'>
+Gitee Go
+</div>
+</a><a class="item" href="/tm147/tv/artifact_repositories"><img src="https://assets.gitee.com/assets/artifacts-eae00b503105733ce5f171de96fbb927.svg" alt="Artifacts" />
+<div class='item-title'>
+制品库管理
+</div>
+</a><a class="item" target="_blank" href="https://gitee.com/help/articles/4285"><img src="https://assets.gitee.com/assets/baidu_efficiency_cloud-81a98c2eb67fac83b1453ca3d2feb326.svg" alt="Baidu efficiency cloud" />
+<div class='item-title'>
+百度效率云
+</div>
+</a><a class="item" target="_blank" href="https://gitee.com/help/articles/4318"><img src="https://assets.gitee.com/assets/cloudbase-1197b95ea3398aff1df7fe17c65a6d42.png?20200925" alt="Cloudbase" />
+<div class='item-title'>
+腾讯云托管
+</div>
+</a><a class="item" target="_blank" href="https://gitee.com/help/articles/4330"><img src="https://assets.gitee.com/assets/cloud_serverless-686cf926ced5d6d2f1d6e606d270b81e.png" alt="Cloud serverless" />
+<div class='item-title'>
+腾讯云 Serverless
+</div>
+</a><a class="item" target="_blank" href="https://gitee.com/help/articles/4193"><img src="https://assets.gitee.com/assets/jenkins_for_gitee-554ec65c490d0f1f18de632c48acc4e7.png" alt="Jenkins for gitee" />
+<div class='item-title'>
+Jenkins for Gitee
+</div>
+</a></div>
+</div>
+</div>
+<div class='item'>
+<div class='ui pointing top right dropdown git-project-service'>
+<div class='text'>
+<i class='iconfont icon-service'></i>
+服务
+</div>
+<i class='dropdown icon'></i>
+<div class='menu' style='display:none'>
+<a class="item" href="/tm147/tv/pages"><img src="/static/images/logo-en.svg" alt="Logo en" />
+<div class='item-title'>
+Gitee Pages
+</div>
+</a><a class="item" href="/tm147/tv/javadoc"><img src="https://assets.gitee.com/assets/maven-bd58aee84f266d64d4b8ce5b006a9fcf.png" alt="Maven" />
+<div class='item-title'>
+JavaDoc
+</div>
+</a><a class="item" href="/tm147/tv/phpdoc"><img src="https://assets.gitee.com/assets/phpdoc-a99f87c2feaa2fd99e5065377a39487e.png" alt="Phpdoc" />
+<div class='item-title'>
+PHPDoc
+</div>
+</a><a class="item" href="/tm147/tv/quality_analyses?platform=sonar_qube"><img src="https://assets.gitee.com/assets/sonar_mini-5e1b54bb9f6c951d97fb778ef623afea.png" alt="Sonar mini" />
+<div class='item-title'>
+质量分析
+</div>
+</a><a class="item" href="/tm147/tv/quality_analyses?platform=codesafe"><img width="100%" src="https://assets.gitee.com/assets/codesafe_mini-accbe1e555e9864c552620240d10e4de.png" alt="Codesafe mini" />
+<div class='item-title'>
+奇安信代码卫士
+</div>
+</a><a class="item" href="/tm147/tv/gitee_scans"><img src="https://assets.gitee.com/assets/giteescan-cd9ab4076bd751faf7e30888eb10f782.png" alt="Giteescan" />
+<div class='item-title'>Gitee Scan</div>
+</a><button class='ui orange basic button quit-button' id='quiting-button'>
+我知道了，不再自动展开
+</button>
+</div>
+</div>
+</div>
+<a class="item d-flex d-flex-center " href="/tm147/tv/settings"><i class='iconfont icon-settings'></i>
+<div class='text ml-05 setting-text'>管理</div>
+</a></div>
+</div>
+</div>
+<script>
+  $('.git-project-nav .ui.dropdown').dropdown({ action: 'nothing' });
+  var gitee_reward_config = JSON.parse(localStorage.getItem('gitee_reward_config') || null) || false
+  var $settingText = $('.setting-text')
+  // 如果没有访问过 
+  if(!gitee_reward_config) $settingText.addClass('red-dot')
+</script>
+<style>
+  .git-project-nav i.checkmark.icon {
+    color: green;
+  }
+  #quiting-button {
+    display: none;
+  }
+  
+  .git-project-nav .dropdown .menu.hidden:after {
+    visibility: hidden !important;
+  }
+</style>
+<script>
+  isSignIn = true
+  isClickGuide = true
+  $('#git-versions.dropdown').dropdown();
+  $.ajax({
+    url:"/tm147/tv/access/add_access_log",
+    type:"GET"
+  });
+  $('#quiting-button').on('click',function() {
+    $('.git-project-service').click();
+    if (isSignIn) {
+      $.post("/projects/set_service_guide")
+    }
+    $.cookie("Serve_State", true, { expires: 3650, path: '/'})
+    $('#quiting-button').hide();
+  });
+  if (!(isClickGuide || $.cookie("Serve_State") == 'true')) {
+    $('.git-project-service').click()
+    $('#quiting-button').show()
+  }
+</script>
+
+</div>
+<div class='ui container'>
+<form action="/tm147/tv/edit/master/bj.txt" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="_method" value="put" /><input type="hidden" name="authenticity_token" value="kM1FgmHv7wcDPM/1SBju6mvEbgbqKVYlDihhPG/j7v64ZFd9C033TN+GnGvVg+yGP0QSyDMSbAEiDfPEUxv6dQ==" />
+<link rel="stylesheet" media="all" href="https://assets.gitee.com/assets/editor-44a51c1d9f3a36ad52fc1bbbd61822cc.css" />
+<div class='ui form blob-form' id='js-blob-form'>
+<div class='field blob-form__path-wrapper'>
+<div class='blob-form__license-select'>
+<select class='ui search dropdown' id='js-license-select' name='license'>
+<option value='no'>请选择开源许可证</option>
+<option value='MulanPSL-2.0'>MulanPSL-2.0</option>
+<option value='0BSD'>0BSD</option>
+<option value='AFL-3.0'>AFL-3.0</option>
+<option value='AGPL-3.0'>AGPL-3.0</option>
+<option value='Apache-2.0'>Apache-2.0</option>
+<option value='Artistic-2.0'>Artistic-2.0</option>
+<option value='BSD-2-Clause'>BSD-2-Clause</option>
+<option value='BSD-3-Clause'>BSD-3-Clause</option>
+<option value='BSD-3-Clause-Clear'>BSD-3-Clause-Clear</option>
+<option value='BSL-1.0'>BSL-1.0</option>
+<option value='CC-BY-4.0'>CC-BY-4.0</option>
+<option value='CC-BY-SA-4.0'>CC-BY-SA-4.0</option>
+<option value='CC0-1.0'>CC0-1.0</option>
+<option value='ECL-2.0'>ECL-2.0</option>
+<option value='EPL-1.0'>EPL-1.0</option>
+<option value='EPL-2.0'>EPL-2.0</option>
+<option value='EUPL-1.1'>EUPL-1.1</option>
+<option value='EUPL-1.2'>EUPL-1.2</option>
+<option value='GPL-2.0'>GPL-2.0</option>
+<option value='GPL-3.0'>GPL-3.0</option>
+<option value='ISC'>ISC</option>
+<option value='LGPL-2.1'>LGPL-2.1</option>
+<option value='LGPL-3.0'>LGPL-3.0</option>
+<option value='LPPL-1.3c'>LPPL-1.3c</option>
+<option value='MIT'>MIT</option>
+<option value='MPL-2.0'>MPL-2.0</option>
+<option value='MS-PL'>MS-PL</option>
+<option value='MS-RL'>MS-RL</option>
+<option value='MulanPSL-1.0'>MulanPSL-1.0</option>
+<option value='MulanPubL-1.0'>MulanPubL-1.0</option>
+<option value='MulanPubL-2.0'>MulanPubL-2.0</option>
+<option value='NCSA'>NCSA</option>
+<option value='OFL-1.1'>OFL-1.1</option>
+<option value='OSL-3.0'>OSL-3.0</option>
+<option value='PostgreSQL'>PostgreSQL</option>
+<option value='UPL-1.0'>UPL-1.0</option>
+<option value='Unlicense'>Unlicense</option>
+<option value='WTFPL'>WTFPL</option>
+<option value='Zlib'>Zlib</option>
+
+</select>
+</div>
+<div class='blob-form__path'>
+<i class='iconfont icon-file'></i>
+<a href="/tm147/tv">tv</a>
+<span class='blob-form__dirpath' id='js-file-dirpath'></span>
+<input class='blob-form__path-input' id='file_name' name='file_name' placeholder='文件名称或文件路径' value='bj.txt'>
+<span class='ml-1'>
+<strong>
+提示:
+</strong>
+输入 / 可以将文件创建到新文件夹下
+</span>
+</div>
+</div>
+<div class='ui top attached warning message blob-form__draft-message'>
+上次编辑的内容尚未保存，是否继续编辑？
+<div class='pull-right actions'>
+<a class='ui orange button'>继续编辑</a>
+<a class='ui blank button'>删除草稿</a>
+</div>
+</div>
+<div class='field blob-form__md-editor'>
+<textarea id='js-md-editor'></textarea>
+</div>
+<div class='field blob-form__monaco-editor'>
+<div class='ui inverted dimmer' id='js-editor-loader'>
+<div class='ui text loader'>
+正在加载编辑器...
+</div>
+</div>
+<div class='monaco-editor-container' id='js-editor-container'></div>
+</div>
+<div class='field blob-form__commit'>
+<div class='field commit-message-container'>
+<label for="commit_message"><span class='text required-icon'>提交信息</span>
+<i class='iconfont icon-help-circle text-green js-popup'></i>
+<div class='ui popup'>
+<a target="blank" href="/help/articles/4231">了解更多：Git Commit Message 编写指南</a>
+</div>
+</label><div class='ui input'>
+<input type="text" name="commit_message_header" id="commit_message_header" placeholder="必填，描述主要修改类型和内容。（相当于 Git Commit message 的 Header）" />
+</div>
+</div>
+<div class='field commit_message-group'>
+<label for="extended_information">扩展信息
+</label><textarea name="extended_information" id="extended_information" placeholder="此处可填写为什么修改，做了什么样的修改，以及开发的思路等更加详细的提交信息。（相当于 Git Commit message 的 Body）" rows="2">
+</textarea>
+</div>
+<div class='field commit-branch'>
+<label for="branch_name">目标分支
+</label><input type="text" name="branch_name" id="branch_name" value="master" placeholder="指定将此次更改提交到哪个分支" />
+</div>
+
+</div>
+<div class='field blob-form__actions'>
+<input type="hidden" name="file_path" id="file_path" value="bj.txt" />
+<input type="hidden" name="content" id="js-blob-content" value="无名
+4k,#genre#
+咪咕4K,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226399/1.m3u8
+咪咕4K,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226400/1.m3u8
+4K花园,http://223.110.243.148/ott.js.chinamobile.com/PLTV/3/224/3221227813/index.m3u8
+4K花园,http://223.110.243.163/ott.js.chinamobile.com/PLTV/3/224/3221227749/index.m3u8
+4K花园娱乐,http://223.110.243.163/ott.js.chinamobile.com/PLTV/3/224/3221227749/index.m3u8
+4KCESHI,http://223.110.236.2/ott.js.chinamobile.com/PLTV/3/224/3221228113/index.m3u8
+北京IPTV4K超清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226550/1.m3u8
+北京IPTV淘BABY,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226554/1.m3u8
+北京IPTV淘剧场,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226553/1.m3u8
+北京IPTV淘娱乐,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226551/1.m3u8
+北京IPTV淘电影,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226552/1.m3u8
+北京IPTV萌宠TV,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226555/1.m3u8
+大健康,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226556/1.m3u8
+4K超清[超清],http://39.134.135.81/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226550/1.m3u8 
+淘电影[高清],http://39.134.134.85:80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226552/1.m3u8 
+淘剧场[高清],http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226553/1.m3u8 
+淘娱乐[高清],http://39.135.238.69/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226551/1.m3u8 
+淘baby[高清],http://39.134.134.88/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226554/1.m3u8 
+萌宠TV[高清],http://39.135.238.61/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226555/1.m3u8 
+大健康[高清],http://39.135.238.67/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226556/1.m3u8
+凤凰中文,http://223.110.235.3/ott.js.chinamobile.com/PLTV/3/224/3221228057/index.m3u8
+凤凰中文,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225942/1.m3u8
+凤凰中文,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225948/1.m3u8
+凤凰资讯,http://223.110.235.13/ott.js.chinamobile.com/PLTV/3/224/3221228098/index.m3u8
+凤凰香港,http://223.110.236.2/ott.js.chinamobile.com/PLTV/3/224/3221228060/index.m3u8
+央视,#genre#
+CCTV1,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225924/1.m3u8
+CCTV1,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226154/1.m3u8
+CCTV1,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226155/1.m3u8
+CCTV1,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226226/1.m3u8
+CCTV1,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226346/1.m3u8
+CCTV1,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226431/1.m3u8
+CCTV2,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226230/1.m3u8
+CCTV2,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226371/1.m3u8
+CCTV2,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226472/1.m3u8
+CCTV3,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226471/1.m3u8
+CCTV4,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226314/1.m3u8
+CCTV4,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226335/1.m3u8
+CCTV4,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226470/1.m3u8
+CCTV5,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226469/1.m3u8
+CCTV5+,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226225/1.m3u8
+CCTV5+,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226349/1.m3u8
+CCTV5+,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226458/1.m3u8
+CCTV6,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226468/1.m3u8
+CCTV7,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226234/1.m3u8
+CCTV7,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226467/1.m3u8
+CCTV8,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226485/1.m3u8
+CCTV9,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226236/1.m3u8
+CCTV9,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226465/1.m3u8
+CCTV10,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226227/1.m3u8
+CCTV10,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226464/1.m3u8
+CCTV11,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226334/1.m3u8
+CCTV11,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226315/1.m3u8
+CCTV11,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226463/1.m3u8
+CCTV12,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226228/1.m3u8
+CCTV12,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226462/1.m3u8
+CCTV13,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226316/1.m3u8
+CCTV13,http://39.134.135.13:80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226316/1.m3u85 
+CCTV14,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226229/1.m3u8
+CCTV14,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226461/1.m3u8
+CCTV15,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226460/1.m3u8
+CCTV15,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226317/1.m3u8
+CCTV15,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226333/1.m3u8
+CCTV17,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226318/1.m3u8
+CCTV17,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226459/1.m3u8
+中国教育1,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226494/1.m3u8
+卫视,#genre#
+东南卫视,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226406/1.m3u8
+东南卫视,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226496/1.m3u8
+东方卫视,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226237/1.m3u8
+东方卫视,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226364/1.m3u8
+东方卫视,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226505/1.m3u8
+北京卫视,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226224/1.m3u8
+北京卫视,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226367/1.m3u8
+北京卫视,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226441/1.m3u8
+天津卫视,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226246/1.m3u8
+天津卫视,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226502/1.m3u8
+安徽卫视,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226223/1.m3u8
+安徽卫视,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226499/1.m3u8
+山东卫视,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225894/1.m3u8
+山东卫视,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226244/1.m3u8
+山东卫视,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226308/1.m3u8
+山东卫视,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226501/1.m3u8
+广东卫视,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225878/1.m3u8
+广东卫视,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226238/1.m3u8
+广东卫视,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226508/1.m3u8
+江苏卫视,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226242/1.m3u8
+江苏卫视,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226366/1.m3u8
+江苏卫视,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226506/1.m3u8
+江西卫视,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226243/1.m3u8
+河北卫视,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226507/1.m3u8
+浙江卫视,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226247/1.m3u8
+浙江卫视,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226365/1.m3u8
+浙江卫视,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226504/1.m3u8
+深圳卫视,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225897/1.m3u8
+深圳卫视,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226245/1.m3u8
+深圳卫视,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226495/1.m3u8
+湖北卫视,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226240/1.m3u8
+湖北卫视,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226310/1.m3u8
+湖北卫视,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226503/1.m3u8
+湖南卫视,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226242/1.m3u8
+湖南卫视,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226509/1.m3u8
+贵州卫视,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226497/1.m3u8
+辽宁卫视,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226500/1.m3u8
+黑龙江卫视,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226239/1.m3u8
+黑龙江卫视,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226498/1.m3u8
+陕西卫视FHD,http://129.226.107.225/zycfcdn.gdwlcloud.com/PLTV/88888888/224/3221225498/index.m3u8
+内蒙古卫视FHD,http://live.m2oplus.nmtv.cn/1/playlist.m3u8?token=
+甘肃卫视FHD,http://39.134.39.39/PLTV/88888888/224/3221226240/index.m3u8
+延边卫视HD,http://live.ybtvyun.com/video/s10006-28bc40431485/index.m3u8
+湖南卫视FHD,http://117.71.37.17/live.aishang.ctlcdn.com/00000110240130_1/playlist.m3u8?CONTENTID=00000110240130_1
+浙江卫视FHD,http://117.71.37.17/live.aishang.ctlcdn.com/00000110240134_1/playlist.m3u8?CONTENTID=00000110240134_1
+江苏卫视FHD,http://39.136.18.76/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225751/1/index.m3u8?fmt=ts2hls
+北京卫视FHD,http://39.136.18.76/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225754/1/index.m3u8?fmt=ts2hls
+东方卫视FHD,http://124.232.231.246:6610/000000001001/201500000069/index.m3u8?IASHttpSessionId=SLB2046220190906022827233263&amp;m3u8_level=2
+安徽卫视FHD,http://39.136.18.76/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225716/1/index.m3u8?fmt=ts2hls
+广东卫视FHD,http://39.136.18.76/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225720/1/index.m3u8?fmt=ts2hls
+深圳卫视FHD,http://117.71.37.17/live.aishang.ctlcdn.com/00000110240132_1/playlist.m3u8?CONTENTID=00000110240132_1
+辽宁卫视FHD,http://39.136.18.76/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225717/1/index.m3u8?fmt=ts2hls
+海南卫视FHD,http://39.135.53.199/ott.fj.chinamobile.com/PLTV/88888888/224/3221227000/index.m3u8
+山东卫视FHD,http://39.136.18.76/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225728/1/index.m3u8?fmt=ts2hls
+天津卫视FHD,http://117.71.37.17/live.aishang.ctlcdn.com/00000110240136_1/playlist.m3u8?CONTENTID=00000110240136_1
+重庆卫视FHD,http://39.136.18.76/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225686/1/index.m3u8?fmt=ts2hls
+东南卫视FHD,http://117.71.37.17/live.aishang.ctlcdn.com/00000110240588_1/playlist.m3u8?CONTENTID=00000110240588_1
+甘肃卫视FHD,http://39.134.39.39/PLTV/88888888/224/3221226240/index.m3u8
+广西卫视HD,http://live-cdn.gxxw.com:80/tv/gxtv/index.m3u8
+贵州卫视FHD,http://39.136.18.76/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225703/1/index.m3u8?fmt=ts2hls
+河北卫视FHD,http://117.71.37.17/live.aishang.ctlcdn.com/00000110240317_1/playlist.m3u8?CONTENTID=00000110240317_1
+黑龙江卫视FHD,http://39.136.18.76/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225758/1/index.m3u8?fmt=ts2hls
+河南卫视FHD,http://39.136.18.76/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225709/1/index.m3u8?fmt=ts2hls
+湖北卫视FHD,http://117.71.37.17/live.aishang.ctlcdn.com/00000110240135_1/playlist.m3u8?CONTENTID=00000110240135_1
+江西卫视FHD,http://39.136.18.76/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225710/1/index.m3u8?fmt=ts2hls
+吉林卫视FHD,http://39.136.18.76/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225753/1/index.m3u8?fmt=ts2hls
+内蒙古卫视FHD,http://live.m2oplus.nmtv.cn/1/playlist.m3u8?token=
+内蒙古卫视蒙语FHD,http://live5.m2oplus.nmtv.cn/3/playlist.m3u8
+宁夏卫视FHD,http://39.134.93.229:6610/000000001000/nxweishi/1.m3u8?IASHttpSessionId=
+山西卫视,http://117.71.37.17/live.aishang.ctlcdn.com/00000110240065_1/playlist.m3u8?CONTENTID=00000110240065_1
+陕西卫视FHD,http://129.226.107.225/zycfcdn.gdwlcloud.com/PLTV/88888888/224/3221225498/index.m3u8
+四川卫视FHD,http://39.136.18.76/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225757/1/index.m3u8?fmt=ts2hls
+康巴卫视HD,http://scgctvshow.sctv.com/hdlive/kangba/index.m3u8
+新疆卫视FHD,http://111.0.27.21/livehyw5.chinamcache.com/hyw/zb01.m3u8
+云南卫视FHD,http://39.135.53.195/ott.fj.chinamobile.com/PLTV/88888888/224/3221226943/index.m3u8
+青海卫视FHD,http://live.geermurmt.com/qhws/sd/live.m3u8
+南方卫视上星版,http://39.136.18.76/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225738/1/index.m3u8?fmt=ts2hls
+兵团卫视FHD,http://test5.btzx.com.cn/live/btxjbtws.stream/chunklist_w1391077284.m3u8?auth_key=
+延边卫视HD,http://live.ybtvyun.com/video/s10006-28bc40431485/index.m3u8
+厦门卫视FHD,http://39.135.53.195/ott.fj.chinamobile.com/PLTV/88888888/224/3221226781/1.m3u8
+西藏卫视,http://117.71.37.17/live.aishang.ctlcdn.com/00000110240076_1/playlist.m3u8?CONTENTID=00000110240076_1
+西藏卫视藏语,http://39.136.18.76/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225697/1/index.m3u8?fmt=ts2hls
+三沙卫视,http://117.71.37.17/live.aishang.ctlcdn.com/00000110240589_1/playlist.m3u8?CONTENTID=00000110240589_1
+安多卫视,http://39.136.18.76/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225694/1/index.m3u8?fmt=ts2hls
+农林卫视,http://39.136.18.76/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225696/1/index.m3u8?fmt=ts2hls
+山东教育卫视,http://39.136.18.76/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225764/1/index.m3u8?fmt=ts2hls
+北京,#genre#
+北京冬奥纪实,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226438/1.m3u8
+北京影视,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226486/1.m3u8
+北京文艺,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226440/1.m3u8
+北京新闻,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226437/1.m3u8
+北京卡酷少儿,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226558/1.m3u8
+湖南快乐垂钓,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226549/1.m3u8
+湖南茶频道,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226548/1.m3u8
+黑莓动画,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225914/1.m3u8
+黑莓动画,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226289/1.m3u8
+黑莓电影,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225927/1.m3u8
+黑莓电影,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226292/1.m3u8
+黑莓电竞,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225931/1.m3u8
+黑莓电竞,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226250/1.m3u8
+黑莓电竞,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226262/1.m3u8
+黑莓电竞,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226307/1.m3u8
+NewTV,#genre#
+NewTV中国功夫 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225951/1.m3u8
+NewTV中国功夫 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226298/1.m3u8
+NewTV中国功夫 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226321/1.m3u8
+NewTV怡伴健康 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225919/1.m3u8
+NewTV怡伴健康 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226306/1.m3u8
+NewTV怡伴健康 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226327/1.m3u8
+NewTV军事评论 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225926/1.m3u8
+NewTV军事评论 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226303/1.m3u8
+NewTV军事评论 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226326/1.m3u8
+NewTV军旅剧场 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225923/1.m3u8
+NewTV军旅剧场 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226301/1.m3u8
+NewTV军旅剧场 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226324/1.m3u8
+NewTV农业致富 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225930/1.m3u8
+NewTV农业致富 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226304/1.m3u8
+NewTV动作电影 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225915/1.m3u8
+NewTV动作电影 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226288/1.m3u8
+NewTV动作电影 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226329/1.m3u8
+NewTV古装剧场 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225916/1.m3u8
+NewTV古装剧场 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226300/1.m3u8
+NewTV古装剧场 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226323/1.m3u8
+NewTV家庭剧场 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225918/1.m3u8
+NewTV家庭剧场 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226290/1.m3u8
+NewTV家庭剧场 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226330/1.m3u8
+NewTV惊悚悬疑 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225921/1.m3u8
+NewTV惊悚悬疑 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226294/1.m3u8
+NewTV惊悚悬疑 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226423/1.m3u8
+NewTV明星大片 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225929/1.m3u8
+NewTV明星大片 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226295/1.m3u8
+NewTV明星大片 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226425/1.m3u8
+NewTV武搏世界 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226171/1.m3u8
+NewTV武搏世界 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226297/1.m3u8
+NewTV武搏世界 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226320/1.m3u8
+NewTV海外剧场 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225917/1.m3u8
+NewTV海外剧场 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226302/1.m3u8
+NewTV海外剧场 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226325/1.m3u8
+NewTV潮妈辣婆 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225957/1.m3u8
+NewTV潮妈辣婆 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226286/1.m3u8
+NewTV炫舞未来 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226248/1.m3u8
+NewTV爱情喜剧 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225913/1.m3u8
+NewTV爱情喜剧 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226299/1.m3u8
+NewTV爱情喜剧 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226322/1.m3u8
+NewTV精品体育 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226287/1.m3u8
+NewTV精品体育 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226328/1.m3u8
+NewTV精品体育 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225922/1.m3u8
+NewTV精品大剧 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225925/1.m3u8
+NewTV精品大剧 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226291/1.m3u8
+NewTV精品大剧 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226331/1.m3u8
+NewTV精品纪录 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226293/1.m3u8
+NewTV精品纪录 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226332/1.m3u8
+NewTV超级体育 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226157/1.m3u8
+NewTV超级体育 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226158/1.m3u8
+NewTV超级体育 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226232/1.m3u8
+NewTV超级体育 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226348/1.m3u8
+NewTV超级电影 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226133/1.m3u8
+NewTV超级电影 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226233/1.m3u8
+NewTV超级电影 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226369/1.m3u8
+NewTV超级电视剧 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225864/1.m3u8
+NewTV超级电视剧 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226253/1.m3u8
+NewTV超级电视剧 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226368/1.m3u8
+NewTV超级综艺 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226127/1.m3u8
+NewTV超级综艺 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226231/1.m3u8
+NewTV超级综艺HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226370/1.m3u8
+NewTV金牌综艺 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225920/1.m3u8
+NewTV金牌综艺 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226296/1.m3u8
+NewTV金牌综艺 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226347/1.m3u8
+咪咕视频,#genre#
+咪咕视频 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226374/1.m3u8
+咪咕视频 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226375/1.m3u8
+咪咕视频 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226377/1.m3u8
+咪咕视频 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226378/1.m3u8
+咪咕视频 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226379/1.m3u8
+咪咕视频 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226380/1.m3u8
+咪咕视频 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226381/1.m3u8
+咪咕视频 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226382/1.m3u8
+咪咕视频 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226394/1.m3u8
+咪咕视频 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226395/1.m3u8
+咪咕视频 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226396/1.m3u8
+咪咕视频 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226397/1.m3u8
+咪咕视频 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226398/1.m3u8
+咪咕视频 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226393/1.m3u8
+咪咕视频 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226392/1.m3u8
+咪咕视频 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226391/1.m3u8
+咪咕视频 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226390/1.m3u8
+咪咕视频 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226372/1.m3u8
+咪咕视频 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226373/1.m3u8
+咪咕视频 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226376/1.m3u8
+咪咕视频 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226383/1.m3u8
+咪咕视频 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226384/1.m3u8
+购物,#genre#
+北京家有购物 HD,http://otttv.bj.chinamobile.com/TVOD/PLTV/88888888/224/3221226429/1.m3u8
+山西优购物 HD,http://otttv.bj.chinamobile.com/TVOD/PLTV/88888888/224/3221226386/1.m3u8
+中视购物 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226547/1.m3u8
+央广购物 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226319/1.m3u8
+央广购物 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226363/1.m3u8
+江苏好享购物 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226312/1.m3u8
+江苏好享购物 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226344/1.m3u8
+湖南快乐购 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226341/1.m3u8
+江西风尚购物 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225911/1.m3u8
+江西风尚购物 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226305/1.m3u8
+江西风尚购物 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226342/1.m3u8
+江苏好享购物 HD,http://otttv.bj.chinamobile.com/TVOD/PLTV/88888888/224/3221226313/1.m3u8
+5GO美妆个护 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226387/1.m3u8
+5GO美妆个护 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226389/1.m3u8
+5GO服饰内衣 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226388/1.m3u8
+央视标清,#genre#
+CCTV1 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226432/1.m3u8
+CCTV1 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226338/1.m3u8
+CCTV2 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225934/1.m3u8
+CCTV2 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226457/1.m3u8
+CCTV3 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226456/1.m3u8
+CCTV4 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226156/1.m3u8
+CCTV4 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226455/1.m3u8
+CCTV5 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226454/1.m3u8
+CCTV5 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226256/1.m3u8
+CCTV5 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226257/1.m3u8
+CCTV5 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226258/1.m3u8
+CCTV5 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226259/1.m3u8
+CCTV5 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226260/1.m3u8
+CCTV5 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226261/1.m3u8
+CCTV5 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226340/1.m3u8
+CCTV5+ 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225938/1.m3u8
+CCTV6 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226453/1.m3u8
+CCTV7 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225863/1.m3u8
+CCTV7 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226452/1.m3u8
+CCTV8 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226451/1.m3u8
+CCTV9 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226450/1.m3u8
+CCTV9 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225865/1.m3u8
+CCTV10 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225868/1.m3u8
+CCTV10 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226449/1.m3u8
+CCTV11 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225869/1.m3u8
+CCTV11 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226448/1.m3u8
+CCTV12 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225870/1.m3u8
+CCTV12 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226447/1.m3u8
+CCTV13 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226446/1.m3u8
+CCTV13 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226159/1.m3u8
+CCTV13 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226339/1.m3u8
+CCTV14 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225872/1.m3u8
+CCTV14 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226445/1.m3u8
+CCTV14 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225928/1.m3u8
+CCTV15 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225940/1.m3u8
+CCTV15 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226444/1.m3u8
+CCTV17 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226442/1.m3u8
+CGTN 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226404/1.m3u8
+CGTN 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225867/1.m3u8
+CGTN 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226443/1.m3u8
+CGTN纪录 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226403/1.m3u8
+CGTN纪录 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225866/1.m3u8
+中国教育1 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226417/1.m3u8
+中国教育1 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226538/1.m3u8
+中国教育1 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225905/1.m3u8
+中国教育2 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226537/1.m3u8
+中国教育4 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226362/1.m3u8
+中国教育4 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226557/1.m3u8
+卫视,#genre#
+东南卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226517/1.m3u8
+东南卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225876/1.m3u8
+东方卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226519/1.m3u8
+东方卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226161/1.m3u8
+云南卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226424/1.m3u8
+云南卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225902/1.m3u8
+云南卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226543/1.m3u8
+内蒙古卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226415/1.m3u8
+内蒙古卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226530/1.m3u8
+内蒙古卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225891/1.m3u8
+北京卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226436/1.m3u8
+北京卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226160/1.m3u8
+厦门卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226542/1.m3u8
+吉林卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226426/1.m3u8
+吉林卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226533/1.m3u8
+吉林卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225886/1.m3u8
+四川卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226407/1.m3u8
+四川卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225898/1.m3u8
+四川卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226523/1.m3u8
+天津卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226489/1.m3u8
+天津卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225899/1.m3u8
+宁夏卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226413/1.m3u8
+宁夏卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226528/1.m3u8
+宁夏卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225892/1.m3u8
+安徽卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225873/1.m3u8
+安徽卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226490/1.m3u8
+山东卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226487/1.m3u8
+山西卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226410/1.m3u8
+山西卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225895/1.m3u8
+山西卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226531/1.m3u8
+广东卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226535/1.m3u8
+广西卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226408/1.m3u8
+广西卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225879/1.m3u8
+广西卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226534/1.m3u8
+新疆卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226422/1.m3u8
+新疆卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225901/1.m3u8
+新疆卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226546/1.m3u8
+江苏卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226491/1.m3u8
+江苏卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225887/1.m3u8
+江西卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226522/1.m3u8
+江西卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225888/1.m3u8
+河北卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226409/1.m3u8
+河北卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225881/1.m3u8
+河北卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226536/1.m3u8
+河南卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225882/1.m3u8
+河南卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226525/1.m3u8
+浙江卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226492/1.m3u8
+浙江卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225903/1.m3u8
+海南卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226427/1.m3u8
+海南卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225890/1.m3u8
+湖北卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226520/1.m3u8
+湖北卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225884/1.m3u8
+湖南卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226493/1.m3u8
+湖南卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226162/1.m3u8
+甘肃卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226414/1.m3u8
+甘肃卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225877/1.m3u8
+甘肃卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226545/1.m3u8
+西藏卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226428/1.m3u8
+西藏卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225900/1.m3u8
+西藏卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226527/1.m3u8
+贵州卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226405/1.m3u8
+贵州卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225880/1.m3u8
+贵州卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226521/1.m3u8
+辽宁卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226488/1.m3u8
+辽宁卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226336/1.m3u8
+辽宁卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225889/1.m3u8
+重庆卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225904/1.m3u8
+重庆卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226337/1.m3u8
+重庆卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226518/1.m3u8
+陕西卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226411/1.m3u8
+陕西卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225896/1.m3u8
+陕西卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226532/1.m3u8
+青海卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226412/1.m3u8
+青海卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225893/1.m3u8
+青海卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226529/1.m3u8
+黑龙江卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226524/1.m3u8
+黑龙江卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225883/1.m3u8
+山东教育卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226419/1.m3u8
+山东教育卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225908/1.m3u8
+山东教育卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226526/1.m3u8
+广东南方卫视地面 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226540/1.m3u8
+新疆兵团卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226541/1.m3u8
+海南三沙卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226544/1.m3u8
+北京卡酷少儿 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225907/1.m3u8
+北京卡酷少儿 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226511/1.m3u8
+北京,#genre#
+北京国际 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226510/1.m3u8
+北京影视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226433/1.m3u8
+北京文艺 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226435/1.m3u8
+北京新闻 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226512/1.m3u8
+北京生活 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226514/1.m3u8
+北京科教 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226434/1.m3u8
+北京财经 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226516/1.m3u8
+北京青年 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226513/1.m3u8
+上海哈哈炫动 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226421/1.m3u8
+上海哈哈炫动 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225909/1.m3u8
+广东嘉佳卡通 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226539/1.m3u8
+江苏优漫卡通 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226420/1.m3u8
+江苏优漫卡通 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225910/1.m3u8
+湖南金鹰卡通 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225906/1.m3u8
+CCTV中视购物 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226385/1.m3u8
+北京家有购物 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225912/1.m3u8
+北京家有购物 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226343/1.m3u8
+聚鲨环球精选 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226311/1.m3u8
+聚鲨环球精选 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226345/1.m3u8
+��选 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226345/1.m3u8
+v.bj.chinamobile.com/TVOD/88888888/224/3221226345/1.m3u8
+��选 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226345/1.m3u8
+.chinamobile.com/TVOD/88888888/224/3221226345/1.m3u8
+测试频道,#genre#
+CCTV-1HD,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226226/index.m3u8
+CCTV-1,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226338/index.m3u8
+CCTV-1,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226346/index.m3u8
+CCTV-1,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226431/index.m3u8
+CCTV-1,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226432/index.m3u8
+CCTV-1,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226432/index.m3u8
+CCTV-1,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226564/index.m3u8
+CCTV-2HD,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226371/index.m3u8
+CCTV-2,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226472/index.m3u8
+CCTV-2,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221225934/index.m3u8
+CCTV-2,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226457/index.m3u8
+CCTV-3HD,http://39.134.135.125/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226471/index.m3u8
+CCTV-3,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226456/index.m3u8
+CCTV-4HD,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226335/index.m3u8
+CCTV-4,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226470/index.m3u8
+CCTV-4,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226156/index.m3u8
+CCTV4,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226455/index.m3u8
+CCTV-5HD,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226469/index.m3u8
+CCTV-5,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226261/index.m3u8
+CCTV-5,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226469/index.m3u8
+CCTV-5,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226258/index.m3u8
+CCTV-5,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226454/index.m3u8
+CCTV-5,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226454/index.m3u8
+CCTV-5+HD,http://39.134.135.125/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226349/index.m3u8
+CCTV-5+,http://39.134.135.125/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226458/index.m3u8
+CCTV-5+,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226225/index.m3u8
+CCTV-5+,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226349/index.m3u8
+CCTV-5+,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226458/index.m3u8
+CCTV-6HD,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226468/index.m3u8
+CCTV-6,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226453/index.m3u8
+CCTV-7HD,http://39.134.135.125/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226467/index.m3u8
+CCTV-7,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226234/index.m3u8
+CCTV-7,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221225863/index.m3u8
+CCTV-7,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226452/index.m3u8
+CCTV-8HD,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226485/index.m3u8
+CCTV-8,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226451/index.m3u8
+CCTV-9HDhttp://39.134.135.125/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226465/index.m3u8
+CCTV-9,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226450/index.m3u8
+CCTV-10HD,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226464/index.m3u8
+CCTV-10,http://39.134.135.125/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226227/index.m3u8
+CCTV-10,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226449/index.m3u8
+CCTV-10,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221225868/index.m3u8
+CCTV-11HD,http://39.134.135.125/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226463/index.m3u8
+CCTV-11,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226334/index.m3u8
+CCTV-11,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221225869/index.m3u8
+CCTV-11,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226448/index.m3u8
+CCTV-12HD,http://39.134.135.125/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226462/index.m3u8
+CCTV-12,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226228/index.m3u8
+CCTV-12,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226447/index.m3u8
+CCTV-12,http://39.134.135.125/otttv.bj.chinamobile.com/TVOD/88888888/224/3221225870/index.m3u8
+CCTV-13HD,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226316/index.m3u8
+CCTV-13,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226316/index.m3u8
+CCTV-13,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226339/index.m3u8
+CCTV-13,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226446/index.m3u8
+CCTV-14HD,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226229/index.m3u8
+CCTV-14,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226461/index.m3u8
+CCTV-14,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226445/index.m3u8
+CCTV-15HD,http://39.134.135.125/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226460/index.m3u8
+CCTV-15,http://39.134.135.125/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226333/index.m3u8
+CCTV-15,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226444/index.m3u8
+CCTV-17HD,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226459/index.m3u8
+CCTV-17,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226442/index.m3u8
+中国教育1HD,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226494/index.m3u8
+中国教育1,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221225905/index.m3u8
+中国教育,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226538/index.m3u8
+中国教育2,http://39.134.135.125/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226537/index.m3u8
+中国教育4,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226557/index.m3u8
+中国教育4,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226362/index.m3u8
+湖南卫视HD,http://39.134.135.125/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226509/index.m3u8
+湖南卫视,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226493/index.m3u8
+江苏卫视HD,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226506/index.m3u8
+江苏卫视,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226366/index.m3u8
+江苏卫视,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226491/index.m3u8
+浙江卫视HD,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226247/index.m3u8
+浙江卫视,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226504/index.m3u8
+浙江卫视,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226492/index.m3u8
+东方卫视HD,http://39.134.135.125/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226505/index.m3u8
+东方卫视,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226364/index.m3u8
+东方卫视,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226519/index.m3u8
+广东卫视HD,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226508/index.m3u8
+深圳卫视HD,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226245/index.m3u8
+北京卫视HD,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226224/index.m3u8
+北京卫视,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226367/index.m3u8
+北京卫视,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226441/index.m3u8
+北京卫视,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226436/index.m3u8
+天津卫视HD,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226502/index.m3u8
+天津卫视,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226489/index.m3u8
+山东卫视HD,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226501/index.m3u8
+山东卫视,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226244/index.m3u8
+山东卫视,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226487/index.m3u8
+湖北卫视HD,http://39.134.135.125/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226240/index.m3u8
+湖北卫视,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226520/index.m3u8
+黑龙江卫视HD,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226498/index.m3u8
+黑龙江卫视,http://39.134.135.125/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226239/index.m3u8
+黑龙江卫视,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226524/index.m3u8
+安徽卫视HD,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226499/index.m3u8
+安徽卫视,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221225873/index.m3u8
+安徽卫视,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226490/index.m3u8
+辽宁卫视HD,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226500/index.m3u8
+辽宁卫视,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226336/index.m3u8
+辽宁卫视,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226488/index.m3u8
+东南卫视HD,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226406/index.m3u8
+东南卫视,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226496/index.m3u8
+江西卫视HD,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226243/index.m3u8
+江西卫视,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226522/index.m3u8
+河北卫视,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226536/index.m3u8
+河北卫视,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221225881/index.m3u8
+贵州卫视,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226405/index.m3u8
+贵州卫视,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221225880/index.m3u8
+南方卫视,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226540/index.m3u8
+山西卫视,http://39.134.135.125/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226531/index.m3u8
+山西卫视,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221225895/index.m3u8
+青海卫视,http://39.134.135.125/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226529/index.m3u8
+青海卫视,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226412/index.m3u8
+云南卫视,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221225902/index.m3u8
+云南卫视,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226424/index.m3u8
+陕西卫视,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221225896/index.m3u8
+陕西卫视,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226532/index.m3u8
+吉林卫视,http://39.134.135.125/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226426/index.m3u8
+吉林卫视,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221225886/index.m3u8
+吉林卫视,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226533/index.m3u8
+广西卫视,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226408/index.m3u8
+广西卫视,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226534/index.m3u8
+广西卫视,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221225879/index.m3u8
+西藏卫视,http://39.134.135.125/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226527/index.m3u8
+西藏卫视,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221225900/index.m3u8
+西藏卫视,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226428/index.m3u8
+内蒙古卫视,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226530/index.m3u8
+四川卫视,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221225898/index.m3u8
+宁夏卫视,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226413/index.m3u8
+宁夏卫视,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226528/index.m3u8
+宁夏卫视,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221225892/index.m3u8
+甘肃卫视,http://39.134.135.125/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226545/index.m3u8
+重庆卫视,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226518/index.m3u8
+新疆卫视,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226546/index.m3u8
+新疆卫视,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226422/index.m3u8
+http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221225901/index.m3u8
+海南卫视,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221225890/index.m3u8
+海南卫视,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226427/index.m3u8
+
+兵团卫视,http://39.134.135.125/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226541/index.m3u8
+厦门卫视,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226542/index.m3u8
+三沙卫视,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226544/index.m3u8
+北京文艺HD,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226440/index.m3u8
+北京文艺,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226435/index.m3u8
+北京冬奥纪实HD,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226438/index.m3u8
+北京科教,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226434/index.m3u8
+北京影视,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226486/index.m3u8
+北京影视,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226433/index.m3u8
+北京财经,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226516/index.m3u8
+北京财经,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226560/index.m3u8
+北京生活,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226514/index.m3u8
+北京生活,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226561/index.m3u8
+北京青年,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226562/index.m3u8
+北京新闻,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226437/index.m3u8
+北京新闻,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226512/index.m3u8
+
+北京卡酷少儿,http://39.134.135.125/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226558/index.m3u8
+卡酷,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226418/index.m3u8
+卡酷,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221225907/index.m3u8
+北京国际,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226510/index.m3u8
+聚鲨环球精选,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226345/index.m3u8
+北京IPTV4K超清,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226550/index.m3u8
+北京IPTV萌宠,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226555/index.m3u8
+北京IPTV大健康,http://39.134.135.125/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226556/index.m3u8
+北京IPTV淘baby,http://39.134.135.125/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226554/index.m3u8
+北京IPTV淘电影,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226552/index.m3u8
+北京IPTV淘剧场,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226553/index.m3u8
+北京IPTV淘娱乐,http://39.134.135.125/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226551/index.m3u8
+嘉佳卡通,http://39.134.135.125/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226539/index.m3u8
+家有购物,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226343/index.m3u8
+茶频道,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226548/index.m3u8
+快乐垂钓,http://39.134.135.125/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226549/index.m3u8
+快乐购,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226341/index.m3u8
+优漫卡通,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226420/index.m3u8
+山东教育卫视
+http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221225908/index.m3u8
+山东教育卫视,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226526/index.m3u8
+山东教育卫视,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226419/index.m3u8
+哈哈炫动,http://39.135.249.20/hwcdntest.hb.chinamobile.com/PLTV/88888888/224/3221226139/3.m3u8
+哈哈炫动,http://39.134.135.125/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226421/index.m3u8
+黑莓电竞,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221225931/index.m3u8
+黑莓动画,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221225914/index.m3u8
+黑莓电影,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221225927/index.m3u8
+NewTV爱情喜剧,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226322/index.m3u8
+NewTV超级电视剧,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226368/index.m3u8
+NewTV超级电视剧,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226253/index.m3u8
+NewTV超级电影,http://39.134.135.125/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226369/index.m3u8#http://39.134.135.125/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226233/index.m3u8
+NewTV超级体育,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226232/index.m3u8
+NewTV超级体育,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226348/index.m3u8
+NewTV超级综艺,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226231/index.m3u8#http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226370/index.m3u8
+NewTV潮妈辣婆,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226286/index.m3u8
+NewTV动作电影,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226329/index.m3u8
+NewTV古装剧场,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226323/index.m3u8
+NewTV热播精选,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226325/index.m3u8
+NewTV怡伴健康,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226327/index.m3u8
+NewTV军旅剧场,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226324/index.m3u8
+NewTV精品大剧,http://39.134.135.125/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226331/index.m3u8
+NewTV精品纪录,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226332/index.m3u8
+NewTV精品体育,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226328/index.m3u8
+NewTV金牌综艺,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226347/index.m3u8
+NewTV军事评论,http://39.134.135.125/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226326/index.m3u8
+NewTV惊悚悬疑,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221225921/index.m3u8
+NewTV惊悚悬疑,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226423/index.m3u8
+NewTV家庭剧场,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226330/index.m3u8
+NewTV精品综合,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221225929/index.m3u8
+NewTV农业致富,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226304/index.m3u8
+NewTV武搏世界,http://39.134.135.125/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226320/index.m3u8
+NewTV炫舞未来,http://39.134.135.125/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226248/index.m3u8
+NewTV中国功夫,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226321/index.m3u8
+NewTV海外剧场,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226325/index.m3u8
+NewTV明星大片,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221225929/index.m3u8
+凤凰中文
+http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221225942/index.m3u8
+凤凰资讯
+http://39.134.135.125/otttv.bj.chinamobile.com/TVOD/88888888/224/3221225948/index.m3u8
+测试频道1,#genre#
+CCTV-1[8M]1080HD,http://39.134.240.3/PLTV/2/224/3221226134/index.m3u8
+CCTV-2[8M]1080HD,http://39.134.240.3/PLTV/2/224/3221226188/index.m3u8
+CCTV-3[8M]1080HD,http://39.134.240.3/PLTV/2/224/3221226190/index.m3u8
+CCTV-4[8M]1080HD,http://39.134.240.3/PLTV/2/224/3221225829/index.m3u8
+CCTV-5[8M]1080HD,http://39.134.240.3/PLTV/2/224/3221225827/index.m3u8
+CCTV-5+[8M]1080HD,http://39.134.240.3/PLTV/2/224/3221225811/index.m3u8
+CCTV-6[8M]1080HD,http://39.134.240.3/PLTV/2/224/3221225825/index.m3u8
+CCTV-7[8M]1080HD,http://39.134.240.3/PLTV/2/224/3221225823/index.m3u8
+CCTV-8[8M]1080HD,http://39.134.240.3/PLTV/2/224/3221225821/index.m3u8
+CCTV-9[8M]1080HD,http://39.134.240.3/PLTV/2/224/3221225819/index.m3u8
+CCTV-10[8M]1080HD,http://39.134.240.3/PLTV/2/224/3221225817/index.m3u8
+CCTV-12[8M]1080HD,http://39.134.240.3/PLTV/2/224/3221225815/index.m3u8
+CCTV-14[8M]1080HD,http://39.134.240.3/PLTV/2/224/3221225813/index.m3u8
+东方卫视[8M]1080HD,http://39.134.240.3/PLTV/2/224/3221226208/index.m3u8
+北京卫视[8M]1080HD,http://39.134.240.3/PLTV/2/224/3221226204/index.m3u8
+江苏卫视[8M]1080HD,http://39.134.240.3/PLTV/2/224/3221226136/index.m3u8
+浙江卫视[8M]1080HD,http://39.134.240.3/PLTV/2/224/3221226148/index.m3u8
+山东卫视[8M]1080HD,http://39.134.240.3/PLTV/2/224/3221226214/index.m3u8
+深圳卫视[8M]1080HD,http://39.134.240.3/PLTV/2/224/3221226210/index.m3u8
+天津卫视[8M]1080HD,http://39.134.240.3/PLTV/2/224/3221226206/index.m3u8
+黑龙江卫视[8M]1080HD,http://39.134.240.3/PLTV/2/224/3221226216/index.m3u8
+湖北卫视[8M]1080HD,http://39.134.240.3/PLTV/2/224/3221226212/index.m3u8
+湖南卫视[8M]1080HD,http://39.134.240.3/PLTV/2/224/3221226324/index.m3u8
+湖南都市[8M]1080HD,http://39.134.240.3/PLTV/2/224/3221226146/index.m3u8
+湖南经视[8M]1080HD,http://39.134.240.3/PLTV/2/224/3221226036/index.m3u8
+湖南电视剧[8M]1080HD,http://39.134.240.3/PLTV/2/224/3221226138/index.m3u8
+湖南电影[8M]1080HD,http://39.134.240.3/PLTV/2/224/3221226140/index.m3u8
+湖南娱乐[8M]1080HD,http://39.134.240.3/PLTV/2/224/3221226144/index.m3u8
+湖南公共[8M]1080HD,http://39.134.240.3/PLTV/2/224/3221226192/index.m3u8
+湖南国际[8M]1080HD,http://39.134.240.3/PLTV/2/224/3221226194/index.m3u8
+金鹰卡通[8M]1080HD,http://39.134.240.3/PLTV/2/224/3221226142/index.m3u8
+快乐垂钓[8M]1080HD,http://39.134.240.3/PLTV/2/224/3221226348/index.m3u8
+长沙新闻频道[8M]1080HD,http://39.134.240.3/PLTV/2/224/3221226200/index.m3u8
+长沙政法频道[8M]1080HD,http://39.134.240.3/PLTV/2/224/3221226202/index.m3u8
+浏阳新闻[8M]1080HD,http://39.134.240.3/PLTV/2/224/3221226092/index.m3u8
+IPTV高清院线[8M]1080HD,http://39.134.240.3/PLTV/2/224/3221226334/index.m3u8
+IPTV经典剧场[8M]1080HD,http://39.134.240.3/PLTV/2/224/3221226328/index.m3u8
+IPTV抗战剧场[8M]1080HD,http://39.134.240.3/PLTV/2/224/3221226330/index.m3u8
+IPTV古装剧场[8M]1080HD,http://39.134.240.3/PLTV/2/224/3221226326/index.m3u8
+IPTV家庭剧场[8M]1080HD,http://39.134.240.3/PLTV/2/224/3221226332/index.m3u8
+IPTV芒果少儿[8M]1080HD,http://39.134.240.3/PLTV/2/224/3221226336/index.m3u8
+时尚频道[8M]1080HD,http://39.134.240.3/PLTV/2/224/3221226198/index.m3u8
+IPTV5+[8M]1080HD,http://39.134.240.3/PLTV/2/224/3221226260/index.m3u8
+快乐购[8M]1080HD,http://39.134.240.3/PLTV/2/224/3221226196/index.m3u8
+湖南经视720HD,http://39.134.240.3/PLTV/2/224/3221225884/index.m3u8
+湖南卫视720HD,http://39.134.240.3/PLTV/2/224/3221226132/index.m3u8
+深圳卫视720HD,http://39.134.240.3/PLTV/2/224/3221225892/index.m3u8
+CCTV-5+720HD,http://39.134.240.3/PLTV/2/224/3221225880/index.m3u8
+CCTV-1,http://39.134.240.3/PLTV/2/224/3221225886/index.m3u8
+CCTV-2,http://39.134.240.3/PLTV/2/224/3221225920/index.m3u8
+CCTV-3,http://39.134.240.3/PLTV/2/224/3221226180/index.m3u8
+CCTV-4,http://39.134.240.3/PLTV/2/224/3221225924/index.m3u8
+CCTV-5,http://39.134.240.3/PLTV/2/224/3221226182/index.m3u8
+CCTV-6,http://39.134.240.3/PLTV/2/224/3221226184/index.m3u8
+CCTV-7,http://39.134.240.3/PLTV/2/224/3221225930/index.m3u8
+CCTV-8,http://39.134.240.3/PLTV/2/224/3221226186/index.m3u8
+CCTV-9,http://39.134.240.3/PLTV/2/224/3221225934/index.m3u8
+CCTV-10,http://39.134.240.3/PLTV/2/224/3221225938/index.m3u8
+CCTV-11,http://39.134.240.3/PLTV/2/224/3221225940/index.m3u8
+CCTV-12,http://39.134.240.3/PLTV/2/224/3221225942/index.m3u8
+CCTV-13,http://39.134.240.3/PLTV/2/224/3221225944/index.m3u8
+CCTV-14,http://39.134.240.3/PLTV/2/224/3221225946/index.m3u8
+CCTV-15,http://39.134.240.3/PLTV/2/224/3221225948/index.m3u8
+CGTN DC,http://39.134.240.3/PLTV/2/224/3221225936/index.m3u8
+CGTN,http://39.134.240.3/PLTV/2/224/3221225950/index.m3u8
+IPTV3,http://39.134.240.3/PLTV/2/224/3221226164/index.m3u8
+IPTV5,http://39.134.240.3/PLTV/2/224/3221226166/index.m3u8
+茶频道,http://39.134.240.3/PLTV/2/224/3221225773/index.m3u8
+狗狗TV,http://39.134.240.3/PLTV/2/224/3221226344/index.m3u8
+家庭消费,http://39.134.240.3/PLTV/2/224/3221225805/index.m3u8
+女性频道,http://39.134.240.3/PLTV/2/224/3221226158/index.m3u8
+先锋乒羽,http://39.134.240.3/PLTV/2/224/3221226006/index.m3u8
+现代房产,http://39.134.240.3/PLTV/2/224/3221225803/index.m3u8
+株洲综合,http://39.134.240.3/PLTV/2/224/3221226170/index.m3u8
+湘潭公共频道,http://39.134.240.3/PLTV/2/224/3221226174/index.m3u8
+湘潭新闻综合,http://39.134.240.3/PLTV/2/224/3221226172/index.m3u8
+长沙影视频道,http://39.134.240.3/PLTV/2/224/3221226160/index.m3u8
+长沙新闻频道,http://39.134.240.3/PLTV/2/224/3221226154/index.m3u8
+长沙政法频道,http://39.134.240.3/PLTV/2/224/3221226156/index.m3u8
+湖南电视剧,http://39.134.240.3/PLTV/2/224/3221225906/index.m3u8
+湖南电影频道,http://39.134.240.3/PLTV/2/224/3221225908/index.m3u8
+湖南都市,http://39.134.240.3/PLTV/2/224/3221225902/index.m3u8
+湖南公共,http://39.134.240.3/PLTV/2/224/3221225904/index.m3u8
+湖南国际,http://39.134.240.3/PLTV/2/224/3221225914/index.m3u8
+湖南教育台,http://39.134.240.3/PLTV/2/224/3221226338/index.m3u8
+湖南娱乐频道,http://39.134.240.3/PLTV/2/224/3221225513/index.m3u8
+金鹰纪实,http://39.134.240.3/PLTV/2/224/3221225916/index.m3u8
+安徽卫视,http://39.134.240.3/PLTV/2/224/3221225964/index.m3u8
+北京卡酷,http://39.134.240.3/PLTV/2/224/3221225994/index.m3u8
+北京卫视,http://39.134.240.3/PLTV/2/224/3221225890/index.m3u8
+东方卫视,http://39.134.240.3/PLTV/2/224/3221226088/index.m3u8
+东南卫视,http://39.134.240.3/PLTV/2/224/3221225968/index.m3u8
+甘肃卫视,http://39.134.240.3/PLTV/2/224/3221225779/index.m3u8
+广东卫视,http://39.134.240.3/PLTV/2/224/3221225970/index.m3u8
+广西卫视,http://39.134.240.3/PLTV/2/224/3221225978/index.m3u8
+贵州卫视,http://39.134.240.3/PLTV/2/224/3221225990/index.m3u8
+海南卫视,http://39.134.240.3/PLTV/2/224/3221225992/index.m3u8
+河北卫视,http://39.134.240.3/PLTV/2/224/3221226070/index.m3u8
+河南卫视,http://39.134.240.3/PLTV/2/224/3221226068/index.m3u8
+黑龙江卫视,http://39.134.240.3/PLTV/2/224/3221225896/index.m3u8
+湖北卫视,http://39.134.240.3/PLTV/2/224/3221225962/index.m3u8
+吉林卫视,http://39.134.240.3/PLTV/2/224/3221226072/index.m3u8
+江苏卫视,http://39.134.240.3/PLTV/2/224/3221225888/index.m3u8
+江西卫视,http://39.134.240.3/PLTV/2/224/3221225972/index.m3u8
+辽宁卫视,http://39.134.240.3/PLTV/2/224/3221225980/index.m3u8
+南方卫视,http://39.134.240.3/PLTV/2/224/3221226082/index.m3u8
+内蒙古卫视,http://39.134.240.3/PLTV/2/224/3221226074/index.m3u8
+宁夏卫视,http://39.134.240.3/PLTV/2/224/3221226076/index.m3u8
+青海卫视,http://39.134.240.3/PLTV/2/224/3221226080/index.m3u8
+山东卫视,http://39.134.240.3/PLTV/2/224/3221225894/index.m3u8
+山西卫视,http://39.134.240.3/PLTV/2/224/3221225775/index.m3u8
+陕西卫视,http://39.134.240.3/PLTV/2/224/3221225984/index.m3u8
+四川卫视,http://39.134.240.3/PLTV/2/224/3221225982/index.m3u8
+天津卫视,http://39.134.240.3/PLTV/2/224/3221225898/index.m3u8
+西藏卫视,http://39.134.240.3/PLTV/2/224/3221225777/index.m3u8
+新疆卫视,http://39.134.240.3/PLTV/2/224/3221226078/index.m3u8
+云南卫视,http://39.134.240.3/PLTV/2/224/3221225986/index.m3u8
+浙江卫视,http://39.134.240.3/PLTV/2/224/3221225781/index.m3u8
+重庆卫视,http://39.134.240.3/PLTV/2/224/3221225966/index.m3u8
+足球,http://39.134.240.3/PLTV/2/224/3221225835/index.m3u8
+财富天下,http://39.134.240.3/PLTV/2/224/3221226366/index.m3u8
+电子体育,http://39.134.240.3/PLTV/2/224/3221226352/index.m3u8
+高尔夫,http://39.134.240.3/PLTV/2/224/3221226350/index.m3u8
+家庭理财,http://39.134.240.3/PLTV/2/224/3221226364/index.m3u8
+人物频道,http://39.134.240.3/PLTV/2/224/3221226368/index.m3u8
+时尚频道,http://39.134.240.3/PLTV/2/224/3221226016/index.m3u8
+四海钓鱼,http://39.134.240.3/PLTV/2/224/3221226346/index.m3u8
+天元围棋,http://39.134.240.3/PLTV/2/224/3221226342/index.m3u8
+优优宝贝,http://39.134.240.3/PLTV/2/224/3221226360/index.m3u8
+金鹰卡通,http://39.134.240.3/PLTV/2/224/3221225910/index.m3u8
+优漫卡通,http://39.134.240.3/PLTV/2/224/3221226086/index.m3u8
+哈哈炫动,http://39.134.240.3/PLTV/2/224/3221226084/index.m3u8
+中国天气,http://39.134.240.3/PLTV/2/224/3221225809/index.m3u8
+百姓健康频道,http://39.134.240.3/PLTV/2/224/3221226354/index.m3u8
+大美人,http://39.134.240.3/PLTV/2/224/3221226152/index.m3u8
+生活家,http://39.134.240.3/PLTV/2/224/3221226150/index.m3u8
+好吃厨房,http://39.134.240.3/PLTV/2/224/3221226162/index.m3u8
+嘉丽购,http://39.134.240.3/PLTV/2/224/3221226176/index.m3u8
+快乐购,http://39.134.240.3/PLTV/2/224/3221225912/index.m3u8
+信号检修,http://39.134.240.3/PLTV/2/224/3221226362/index.m3u8" />
+<button name="button" type="submit" id="js-commit-button" class="ui large submit orange button mr-2">提交</button>
+<a class="btn-cancel" data-confirm="内容尚未保存，取消将会丢失，确认取消？" href="/tm147/tv/blob/master/bj.txt">取消</a>
+<div class='ui error message'></div>
+</div>
+</div>
+<script src="https://assets.gitee.com/assets/editor-ffad5056cae25a9bc6e26871f43456e5.js"></script>
+<script src="/monaco-editor/min/vs/loader.js"></script>
+
+<input type="hidden" name="eol_crlf" id="eol_crlf" value="true" />
+<input type="hidden" name="last_commit_sha" id="last_commit_sha" value="5bd5b84a5d8000d87434c6543ed2b23495debb59" />
+</form>
+
+<script>
+  Gitee.initBlobForm({
+    type: "code",
+    content: "无名\n4k,#genre#\n咪咕4K,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226399/1.m3u8\n咪咕4K,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226400/1.m3u8\n4K花园,http://223.110.243.148/ott.js.chinamobile.com/PLTV/3/224/3221227813/index.m3u8\n4K花园,http://223.110.243.163/ott.js.chinamobile.com/PLTV/3/224/3221227749/index.m3u8\n4K花园娱乐,http://223.110.243.163/ott.js.chinamobile.com/PLTV/3/224/3221227749/index.m3u8\n4KCESHI,http://223.110.236.2/ott.js.chinamobile.com/PLTV/3/224/3221228113/index.m3u8\n北京IPTV4K超清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226550/1.m3u8\n北京IPTV淘BABY,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226554/1.m3u8\n北京IPTV淘剧场,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226553/1.m3u8\n北京IPTV淘娱乐,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226551/1.m3u8\n北京IPTV淘电影,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226552/1.m3u8\n北京IPTV萌宠TV,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226555/1.m3u8\n大健康,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226556/1.m3u8\n4K超清[超清],http://39.134.135.81/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226550/1.m3u8 \n淘电影[高清],http://39.134.134.85:80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226552/1.m3u8 \n淘剧场[高清],http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226553/1.m3u8 \n淘娱乐[高清],http://39.135.238.69/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226551/1.m3u8 \n淘baby[高清],http://39.134.134.88/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226554/1.m3u8 \n萌宠TV[高清],http://39.135.238.61/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226555/1.m3u8 \n大健康[高清],http://39.135.238.67/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226556/1.m3u8\n凤凰中文,http://223.110.235.3/ott.js.chinamobile.com/PLTV/3/224/3221228057/index.m3u8\n凤凰中文,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225942/1.m3u8\n凤凰中文,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225948/1.m3u8\n凤凰资讯,http://223.110.235.13/ott.js.chinamobile.com/PLTV/3/224/3221228098/index.m3u8\n凤凰香港,http://223.110.236.2/ott.js.chinamobile.com/PLTV/3/224/3221228060/index.m3u8\n央视,#genre#\nCCTV1,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225924/1.m3u8\nCCTV1,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226154/1.m3u8\nCCTV1,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226155/1.m3u8\nCCTV1,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226226/1.m3u8\nCCTV1,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226346/1.m3u8\nCCTV1,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226431/1.m3u8\nCCTV2,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226230/1.m3u8\nCCTV2,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226371/1.m3u8\nCCTV2,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226472/1.m3u8\nCCTV3,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226471/1.m3u8\nCCTV4,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226314/1.m3u8\nCCTV4,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226335/1.m3u8\nCCTV4,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226470/1.m3u8\nCCTV5,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226469/1.m3u8\nCCTV5+,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226225/1.m3u8\nCCTV5+,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226349/1.m3u8\nCCTV5+,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226458/1.m3u8\nCCTV6,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226468/1.m3u8\nCCTV7,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226234/1.m3u8\nCCTV7,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226467/1.m3u8\nCCTV8,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226485/1.m3u8\nCCTV9,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226236/1.m3u8\nCCTV9,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226465/1.m3u8\nCCTV10,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226227/1.m3u8\nCCTV10,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226464/1.m3u8\nCCTV11,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226334/1.m3u8\nCCTV11,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226315/1.m3u8\nCCTV11,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226463/1.m3u8\nCCTV12,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226228/1.m3u8\nCCTV12,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226462/1.m3u8\nCCTV13,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226316/1.m3u8\nCCTV13,http://39.134.135.13:80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226316/1.m3u85 \nCCTV14,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226229/1.m3u8\nCCTV14,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226461/1.m3u8\nCCTV15,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226460/1.m3u8\nCCTV15,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226317/1.m3u8\nCCTV15,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226333/1.m3u8\nCCTV17,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226318/1.m3u8\nCCTV17,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226459/1.m3u8\n中国教育1,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226494/1.m3u8\n卫视,#genre#\n东南卫视,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226406/1.m3u8\n东南卫视,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226496/1.m3u8\n东方卫视,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226237/1.m3u8\n东方卫视,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226364/1.m3u8\n东方卫视,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226505/1.m3u8\n北京卫视,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226224/1.m3u8\n北京卫视,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226367/1.m3u8\n北京卫视,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226441/1.m3u8\n天津卫视,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226246/1.m3u8\n天津卫视,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226502/1.m3u8\n安徽卫视,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226223/1.m3u8\n安徽卫视,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226499/1.m3u8\n山东卫视,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225894/1.m3u8\n山东卫视,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226244/1.m3u8\n山东卫视,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226308/1.m3u8\n山东卫视,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226501/1.m3u8\n广东卫视,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225878/1.m3u8\n广东卫视,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226238/1.m3u8\n广东卫视,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226508/1.m3u8\n江苏卫视,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226242/1.m3u8\n江苏卫视,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226366/1.m3u8\n江苏卫视,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226506/1.m3u8\n江西卫视,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226243/1.m3u8\n河北卫视,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226507/1.m3u8\n浙江卫视,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226247/1.m3u8\n浙江卫视,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226365/1.m3u8\n浙江卫视,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226504/1.m3u8\n深圳卫视,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225897/1.m3u8\n深圳卫视,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226245/1.m3u8\n深圳卫视,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226495/1.m3u8\n湖北卫视,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226240/1.m3u8\n湖北卫视,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226310/1.m3u8\n湖北卫视,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226503/1.m3u8\n湖南卫视,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226242/1.m3u8\n湖南卫视,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226509/1.m3u8\n贵州卫视,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226497/1.m3u8\n辽宁卫视,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226500/1.m3u8\n黑龙江卫视,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226239/1.m3u8\n黑龙江卫视,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226498/1.m3u8\n陕西卫视FHD,http://129.226.107.225/zycfcdn.gdwlcloud.com/PLTV/88888888/224/3221225498/index.m3u8\n内蒙古卫视FHD,http://live.m2oplus.nmtv.cn/1/playlist.m3u8?token=\n甘肃卫视FHD,http://39.134.39.39/PLTV/88888888/224/3221226240/index.m3u8\n延边卫视HD,http://live.ybtvyun.com/video/s10006-28bc40431485/index.m3u8\n湖南卫视FHD,http://117.71.37.17/live.aishang.ctlcdn.com/00000110240130_1/playlist.m3u8?CONTENTID=00000110240130_1\n浙江卫视FHD,http://117.71.37.17/live.aishang.ctlcdn.com/00000110240134_1/playlist.m3u8?CONTENTID=00000110240134_1\n江苏卫视FHD,http://39.136.18.76/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225751/1/index.m3u8?fmt=ts2hls\n北京卫视FHD,http://39.136.18.76/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225754/1/index.m3u8?fmt=ts2hls\n东方卫视FHD,http://124.232.231.246:6610/000000001001/201500000069/index.m3u8?IASHttpSessionId=SLB2046220190906022827233263&m3u8_level=2\n安徽卫视FHD,http://39.136.18.76/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225716/1/index.m3u8?fmt=ts2hls\n广东卫视FHD,http://39.136.18.76/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225720/1/index.m3u8?fmt=ts2hls\n深圳卫视FHD,http://117.71.37.17/live.aishang.ctlcdn.com/00000110240132_1/playlist.m3u8?CONTENTID=00000110240132_1\n辽宁卫视FHD,http://39.136.18.76/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225717/1/index.m3u8?fmt=ts2hls\n海南卫视FHD,http://39.135.53.199/ott.fj.chinamobile.com/PLTV/88888888/224/3221227000/index.m3u8\n山东卫视FHD,http://39.136.18.76/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225728/1/index.m3u8?fmt=ts2hls\n天津卫视FHD,http://117.71.37.17/live.aishang.ctlcdn.com/00000110240136_1/playlist.m3u8?CONTENTID=00000110240136_1\n重庆卫视FHD,http://39.136.18.76/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225686/1/index.m3u8?fmt=ts2hls\n东南卫视FHD,http://117.71.37.17/live.aishang.ctlcdn.com/00000110240588_1/playlist.m3u8?CONTENTID=00000110240588_1\n甘肃卫视FHD,http://39.134.39.39/PLTV/88888888/224/3221226240/index.m3u8\n广西卫视HD,http://live-cdn.gxxw.com:80/tv/gxtv/index.m3u8\n贵州卫视FHD,http://39.136.18.76/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225703/1/index.m3u8?fmt=ts2hls\n河北卫视FHD,http://117.71.37.17/live.aishang.ctlcdn.com/00000110240317_1/playlist.m3u8?CONTENTID=00000110240317_1\n黑龙江卫视FHD,http://39.136.18.76/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225758/1/index.m3u8?fmt=ts2hls\n河南卫视FHD,http://39.136.18.76/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225709/1/index.m3u8?fmt=ts2hls\n湖北卫视FHD,http://117.71.37.17/live.aishang.ctlcdn.com/00000110240135_1/playlist.m3u8?CONTENTID=00000110240135_1\n江西卫视FHD,http://39.136.18.76/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225710/1/index.m3u8?fmt=ts2hls\n吉林卫视FHD,http://39.136.18.76/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225753/1/index.m3u8?fmt=ts2hls\n内蒙古卫视FHD,http://live.m2oplus.nmtv.cn/1/playlist.m3u8?token=\n内蒙古卫视蒙语FHD,http://live5.m2oplus.nmtv.cn/3/playlist.m3u8\n宁夏卫视FHD,http://39.134.93.229:6610/000000001000/nxweishi/1.m3u8?IASHttpSessionId=\n山西卫视,http://117.71.37.17/live.aishang.ctlcdn.com/00000110240065_1/playlist.m3u8?CONTENTID=00000110240065_1\n陕西卫视FHD,http://129.226.107.225/zycfcdn.gdwlcloud.com/PLTV/88888888/224/3221225498/index.m3u8\n四川卫视FHD,http://39.136.18.76/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225757/1/index.m3u8?fmt=ts2hls\n康巴卫视HD,http://scgctvshow.sctv.com/hdlive/kangba/index.m3u8\n新疆卫视FHD,http://111.0.27.21/livehyw5.chinamcache.com/hyw/zb01.m3u8\n云南卫视FHD,http://39.135.53.195/ott.fj.chinamobile.com/PLTV/88888888/224/3221226943/index.m3u8\n青海卫视FHD,http://live.geermurmt.com/qhws/sd/live.m3u8\n南方卫视上星版,http://39.136.18.76/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225738/1/index.m3u8?fmt=ts2hls\n兵团卫视FHD,http://test5.btzx.com.cn/live/btxjbtws.stream/chunklist_w1391077284.m3u8?auth_key=\n延边卫视HD,http://live.ybtvyun.com/video/s10006-28bc40431485/index.m3u8\n厦门卫视FHD,http://39.135.53.195/ott.fj.chinamobile.com/PLTV/88888888/224/3221226781/1.m3u8\n西藏卫视,http://117.71.37.17/live.aishang.ctlcdn.com/00000110240076_1/playlist.m3u8?CONTENTID=00000110240076_1\n西藏卫视藏语,http://39.136.18.76/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225697/1/index.m3u8?fmt=ts2hls\n三沙卫视,http://117.71.37.17/live.aishang.ctlcdn.com/00000110240589_1/playlist.m3u8?CONTENTID=00000110240589_1\n安多卫视,http://39.136.18.76/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225694/1/index.m3u8?fmt=ts2hls\n农林卫视,http://39.136.18.76/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225696/1/index.m3u8?fmt=ts2hls\n山东教育卫视,http://39.136.18.76/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225764/1/index.m3u8?fmt=ts2hls\n北京,#genre#\n北京冬奥纪实,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226438/1.m3u8\n北京影视,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226486/1.m3u8\n北京文艺,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226440/1.m3u8\n北京新闻,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226437/1.m3u8\n北京卡酷少儿,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226558/1.m3u8\n湖南快乐垂钓,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226549/1.m3u8\n湖南茶频道,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226548/1.m3u8\n黑莓动画,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225914/1.m3u8\n黑莓动画,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226289/1.m3u8\n黑莓电影,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225927/1.m3u8\n黑莓电影,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226292/1.m3u8\n黑莓电竞,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225931/1.m3u8\n黑莓电竞,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226250/1.m3u8\n黑莓电竞,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226262/1.m3u8\n黑莓电竞,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226307/1.m3u8\nNewTV,#genre#\nNewTV中国功夫 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225951/1.m3u8\nNewTV中国功夫 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226298/1.m3u8\nNewTV中国功夫 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226321/1.m3u8\nNewTV怡伴健康 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225919/1.m3u8\nNewTV怡伴健康 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226306/1.m3u8\nNewTV怡伴健康 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226327/1.m3u8\nNewTV军事评论 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225926/1.m3u8\nNewTV军事评论 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226303/1.m3u8\nNewTV军事评论 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226326/1.m3u8\nNewTV军旅剧场 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225923/1.m3u8\nNewTV军旅剧场 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226301/1.m3u8\nNewTV军旅剧场 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226324/1.m3u8\nNewTV农业致富 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225930/1.m3u8\nNewTV农业致富 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226304/1.m3u8\nNewTV动作电影 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225915/1.m3u8\nNewTV动作电影 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226288/1.m3u8\nNewTV动作电影 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226329/1.m3u8\nNewTV古装剧场 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225916/1.m3u8\nNewTV古装剧场 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226300/1.m3u8\nNewTV古装剧场 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226323/1.m3u8\nNewTV家庭剧场 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225918/1.m3u8\nNewTV家庭剧场 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226290/1.m3u8\nNewTV家庭剧场 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226330/1.m3u8\nNewTV惊悚悬疑 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225921/1.m3u8\nNewTV惊悚悬疑 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226294/1.m3u8\nNewTV惊悚悬疑 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226423/1.m3u8\nNewTV明星大片 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225929/1.m3u8\nNewTV明星大片 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226295/1.m3u8\nNewTV明星大片 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226425/1.m3u8\nNewTV武搏世界 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226171/1.m3u8\nNewTV武搏世界 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226297/1.m3u8\nNewTV武搏世界 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226320/1.m3u8\nNewTV海外剧场 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225917/1.m3u8\nNewTV海外剧场 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226302/1.m3u8\nNewTV海外剧场 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226325/1.m3u8\nNewTV潮妈辣婆 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225957/1.m3u8\nNewTV潮妈辣婆 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226286/1.m3u8\nNewTV炫舞未来 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226248/1.m3u8\nNewTV爱情喜剧 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225913/1.m3u8\nNewTV爱情喜剧 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226299/1.m3u8\nNewTV爱情喜剧 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226322/1.m3u8\nNewTV精品体育 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226287/1.m3u8\nNewTV精品体育 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226328/1.m3u8\nNewTV精品体育 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225922/1.m3u8\nNewTV精品大剧 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225925/1.m3u8\nNewTV精品大剧 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226291/1.m3u8\nNewTV精品大剧 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226331/1.m3u8\nNewTV精品纪录 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226293/1.m3u8\nNewTV精品纪录 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226332/1.m3u8\nNewTV超级体育 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226157/1.m3u8\nNewTV超级体育 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226158/1.m3u8\nNewTV超级体育 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226232/1.m3u8\nNewTV超级体育 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226348/1.m3u8\nNewTV超级电影 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226133/1.m3u8\nNewTV超级电影 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226233/1.m3u8\nNewTV超级电影 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226369/1.m3u8\nNewTV超级电视剧 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225864/1.m3u8\nNewTV超级电视剧 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226253/1.m3u8\nNewTV超级电视剧 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226368/1.m3u8\nNewTV超级综艺 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226127/1.m3u8\nNewTV超级综艺 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226231/1.m3u8\nNewTV超级综艺HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226370/1.m3u8\nNewTV金牌综艺 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225920/1.m3u8\nNewTV金牌综艺 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226296/1.m3u8\nNewTV金牌综艺 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226347/1.m3u8\n咪咕视频,#genre#\n咪咕视频 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226374/1.m3u8\n咪咕视频 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226375/1.m3u8\n咪咕视频 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226377/1.m3u8\n咪咕视频 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226378/1.m3u8\n咪咕视频 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226379/1.m3u8\n咪咕视频 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226380/1.m3u8\n咪咕视频 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226381/1.m3u8\n咪咕视频 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226382/1.m3u8\n咪咕视频 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226394/1.m3u8\n咪咕视频 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226395/1.m3u8\n咪咕视频 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226396/1.m3u8\n咪咕视频 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226397/1.m3u8\n咪咕视频 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226398/1.m3u8\n咪咕视频 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226393/1.m3u8\n咪咕视频 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226392/1.m3u8\n咪咕视频 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226391/1.m3u8\n咪咕视频 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226390/1.m3u8\n咪咕视频 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226372/1.m3u8\n咪咕视频 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226373/1.m3u8\n咪咕视频 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226376/1.m3u8\n咪咕视频 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226383/1.m3u8\n咪咕视频 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226384/1.m3u8\n购物,#genre#\n北京家有购物 HD,http://otttv.bj.chinamobile.com/TVOD/PLTV/88888888/224/3221226429/1.m3u8\n山西优购物 HD,http://otttv.bj.chinamobile.com/TVOD/PLTV/88888888/224/3221226386/1.m3u8\n中视购物 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226547/1.m3u8\n央广购物 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226319/1.m3u8\n央广购物 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226363/1.m3u8\n江苏好享购物 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226312/1.m3u8\n江苏好享购物 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226344/1.m3u8\n湖南快乐购 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226341/1.m3u8\n江西风尚购物 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225911/1.m3u8\n江西风尚购物 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226305/1.m3u8\n江西风尚购物 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226342/1.m3u8\n江苏好享购物 HD,http://otttv.bj.chinamobile.com/TVOD/PLTV/88888888/224/3221226313/1.m3u8\n5GO美妆个护 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226387/1.m3u8\n5GO美妆个护 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226389/1.m3u8\n5GO服饰内衣 HD,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226388/1.m3u8\n央视标清,#genre#\nCCTV1 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226432/1.m3u8\nCCTV1 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226338/1.m3u8\nCCTV2 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225934/1.m3u8\nCCTV2 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226457/1.m3u8\nCCTV3 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226456/1.m3u8\nCCTV4 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226156/1.m3u8\nCCTV4 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226455/1.m3u8\nCCTV5 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226454/1.m3u8\nCCTV5 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226256/1.m3u8\nCCTV5 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226257/1.m3u8\nCCTV5 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226258/1.m3u8\nCCTV5 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226259/1.m3u8\nCCTV5 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226260/1.m3u8\nCCTV5 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226261/1.m3u8\nCCTV5 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226340/1.m3u8\nCCTV5+ 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225938/1.m3u8\nCCTV6 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226453/1.m3u8\nCCTV7 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225863/1.m3u8\nCCTV7 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226452/1.m3u8\nCCTV8 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226451/1.m3u8\nCCTV9 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226450/1.m3u8\nCCTV9 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225865/1.m3u8\nCCTV10 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225868/1.m3u8\nCCTV10 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226449/1.m3u8\nCCTV11 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225869/1.m3u8\nCCTV11 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226448/1.m3u8\nCCTV12 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225870/1.m3u8\nCCTV12 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226447/1.m3u8\nCCTV13 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226446/1.m3u8\nCCTV13 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226159/1.m3u8\nCCTV13 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226339/1.m3u8\nCCTV14 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225872/1.m3u8\nCCTV14 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226445/1.m3u8\nCCTV14 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225928/1.m3u8\nCCTV15 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225940/1.m3u8\nCCTV15 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226444/1.m3u8\nCCTV17 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226442/1.m3u8\nCGTN 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226404/1.m3u8\nCGTN 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225867/1.m3u8\nCGTN 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226443/1.m3u8\nCGTN纪录 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226403/1.m3u8\nCGTN纪录 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225866/1.m3u8\n中国教育1 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226417/1.m3u8\n中国教育1 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226538/1.m3u8\n中国教育1 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225905/1.m3u8\n中国教育2 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226537/1.m3u8\n中国教育4 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226362/1.m3u8\n中国教育4 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226557/1.m3u8\n卫视,#genre#\n东南卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226517/1.m3u8\n东南卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225876/1.m3u8\n东方卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226519/1.m3u8\n东方卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226161/1.m3u8\n云南卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226424/1.m3u8\n云南卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225902/1.m3u8\n云南卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226543/1.m3u8\n内蒙古卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226415/1.m3u8\n内蒙古卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226530/1.m3u8\n内蒙古卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225891/1.m3u8\n北京卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226436/1.m3u8\n北京卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226160/1.m3u8\n厦门卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226542/1.m3u8\n吉林卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226426/1.m3u8\n吉林卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226533/1.m3u8\n吉林卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225886/1.m3u8\n四川卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226407/1.m3u8\n四川卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225898/1.m3u8\n四川卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226523/1.m3u8\n天津卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226489/1.m3u8\n天津卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225899/1.m3u8\n宁夏卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226413/1.m3u8\n宁夏卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226528/1.m3u8\n宁夏卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225892/1.m3u8\n安徽卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225873/1.m3u8\n安徽卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226490/1.m3u8\n山东卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226487/1.m3u8\n山西卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226410/1.m3u8\n山西卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225895/1.m3u8\n山西卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226531/1.m3u8\n广东卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226535/1.m3u8\n广西卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226408/1.m3u8\n广西卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225879/1.m3u8\n广西卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226534/1.m3u8\n新疆卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226422/1.m3u8\n新疆卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225901/1.m3u8\n新疆卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226546/1.m3u8\n江苏卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226491/1.m3u8\n江苏卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225887/1.m3u8\n江西卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226522/1.m3u8\n江西卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225888/1.m3u8\n河北卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226409/1.m3u8\n河北卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225881/1.m3u8\n河北卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226536/1.m3u8\n河南卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225882/1.m3u8\n河南卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226525/1.m3u8\n浙江卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226492/1.m3u8\n浙江卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225903/1.m3u8\n海南卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226427/1.m3u8\n海南卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225890/1.m3u8\n湖北卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226520/1.m3u8\n湖北卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225884/1.m3u8\n湖南卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226493/1.m3u8\n湖南卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226162/1.m3u8\n甘肃卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226414/1.m3u8\n甘肃卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225877/1.m3u8\n甘肃卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226545/1.m3u8\n西藏卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226428/1.m3u8\n西藏卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225900/1.m3u8\n西藏卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226527/1.m3u8\n贵州卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226405/1.m3u8\n贵州卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225880/1.m3u8\n贵州卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226521/1.m3u8\n辽宁卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226488/1.m3u8\n辽宁卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226336/1.m3u8\n辽宁卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225889/1.m3u8\n重庆卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225904/1.m3u8\n重庆卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226337/1.m3u8\n重庆卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226518/1.m3u8\n陕西卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226411/1.m3u8\n陕西卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225896/1.m3u8\n陕西卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226532/1.m3u8\n青海卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226412/1.m3u8\n青海卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225893/1.m3u8\n青海卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226529/1.m3u8\n黑龙江卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226524/1.m3u8\n黑龙江卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225883/1.m3u8\n山东教育卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226419/1.m3u8\n山东教育卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225908/1.m3u8\n山东教育卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226526/1.m3u8\n广东南方卫视地面 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226540/1.m3u8\n新疆兵团卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226541/1.m3u8\n海南三沙卫视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226544/1.m3u8\n北京卡酷少儿 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225907/1.m3u8\n北京卡酷少儿 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226511/1.m3u8\n北京,#genre#\n北京国际 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226510/1.m3u8\n北京影视 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226433/1.m3u8\n北京文艺 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226435/1.m3u8\n北京新闻 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226512/1.m3u8\n北京生活 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226514/1.m3u8\n北京科教 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226434/1.m3u8\n北京财经 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226516/1.m3u8\n北京青年 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226513/1.m3u8\n上海哈哈炫动 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226421/1.m3u8\n上海哈哈炫动 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225909/1.m3u8\n广东嘉佳卡通 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226539/1.m3u8\n江苏优漫卡通 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226420/1.m3u8\n江苏优漫卡通 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225910/1.m3u8\n湖南金鹰卡通 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225906/1.m3u8\nCCTV中视购物 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226385/1.m3u8\n北京家有购物 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225912/1.m3u8\n北京家有购物 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226343/1.m3u8\n聚鲨环球精选 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226311/1.m3u8\n聚鲨环球精选 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226345/1.m3u8\n��选 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226345/1.m3u8\nv.bj.chinamobile.com/TVOD/88888888/224/3221226345/1.m3u8\n��选 标清,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226345/1.m3u8\n.chinamobile.com/TVOD/88888888/224/3221226345/1.m3u8\n测试频道,#genre#\nCCTV-1HD,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226226/index.m3u8\nCCTV-1,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226338/index.m3u8\nCCTV-1,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226346/index.m3u8\nCCTV-1,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226431/index.m3u8\nCCTV-1,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226432/index.m3u8\nCCTV-1,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226432/index.m3u8\nCCTV-1,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226564/index.m3u8\nCCTV-2HD,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226371/index.m3u8\nCCTV-2,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226472/index.m3u8\nCCTV-2,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221225934/index.m3u8\nCCTV-2,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226457/index.m3u8\nCCTV-3HD,http://39.134.135.125/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226471/index.m3u8\nCCTV-3,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226456/index.m3u8\nCCTV-4HD,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226335/index.m3u8\nCCTV-4,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226470/index.m3u8\nCCTV-4,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226156/index.m3u8\nCCTV4,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226455/index.m3u8\nCCTV-5HD,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226469/index.m3u8\nCCTV-5,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226261/index.m3u8\nCCTV-5,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226469/index.m3u8\nCCTV-5,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226258/index.m3u8\nCCTV-5,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226454/index.m3u8\nCCTV-5,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226454/index.m3u8\nCCTV-5+HD,http://39.134.135.125/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226349/index.m3u8\nCCTV-5+,http://39.134.135.125/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226458/index.m3u8\nCCTV-5+,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226225/index.m3u8\nCCTV-5+,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226349/index.m3u8\nCCTV-5+,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226458/index.m3u8\nCCTV-6HD,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226468/index.m3u8\nCCTV-6,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226453/index.m3u8\nCCTV-7HD,http://39.134.135.125/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226467/index.m3u8\nCCTV-7,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226234/index.m3u8\nCCTV-7,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221225863/index.m3u8\nCCTV-7,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226452/index.m3u8\nCCTV-8HD,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226485/index.m3u8\nCCTV-8,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226451/index.m3u8\nCCTV-9HDhttp://39.134.135.125/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226465/index.m3u8\nCCTV-9,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226450/index.m3u8\nCCTV-10HD,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226464/index.m3u8\nCCTV-10,http://39.134.135.125/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226227/index.m3u8\nCCTV-10,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226449/index.m3u8\nCCTV-10,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221225868/index.m3u8\nCCTV-11HD,http://39.134.135.125/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226463/index.m3u8\nCCTV-11,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226334/index.m3u8\nCCTV-11,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221225869/index.m3u8\nCCTV-11,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226448/index.m3u8\nCCTV-12HD,http://39.134.135.125/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226462/index.m3u8\nCCTV-12,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226228/index.m3u8\nCCTV-12,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226447/index.m3u8\nCCTV-12,http://39.134.135.125/otttv.bj.chinamobile.com/TVOD/88888888/224/3221225870/index.m3u8\nCCTV-13HD,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226316/index.m3u8\nCCTV-13,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226316/index.m3u8\nCCTV-13,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226339/index.m3u8\nCCTV-13,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226446/index.m3u8\nCCTV-14HD,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226229/index.m3u8\nCCTV-14,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226461/index.m3u8\nCCTV-14,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226445/index.m3u8\nCCTV-15HD,http://39.134.135.125/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226460/index.m3u8\nCCTV-15,http://39.134.135.125/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226333/index.m3u8\nCCTV-15,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226444/index.m3u8\nCCTV-17HD,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226459/index.m3u8\nCCTV-17,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226442/index.m3u8\n中国教育1HD,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226494/index.m3u8\n中国教育1,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221225905/index.m3u8\n中国教育,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226538/index.m3u8\n中国教育2,http://39.134.135.125/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226537/index.m3u8\n中国教育4,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226557/index.m3u8\n中国教育4,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226362/index.m3u8\n湖南卫视HD,http://39.134.135.125/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226509/index.m3u8\n湖南卫视,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226493/index.m3u8\n江苏卫视HD,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226506/index.m3u8\n江苏卫视,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226366/index.m3u8\n江苏卫视,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226491/index.m3u8\n浙江卫视HD,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226247/index.m3u8\n浙江卫视,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226504/index.m3u8\n浙江卫视,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226492/index.m3u8\n东方卫视HD,http://39.134.135.125/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226505/index.m3u8\n东方卫视,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226364/index.m3u8\n东方卫视,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226519/index.m3u8\n广东卫视HD,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226508/index.m3u8\n深圳卫视HD,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226245/index.m3u8\n北京卫视HD,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226224/index.m3u8\n北京卫视,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226367/index.m3u8\n北京卫视,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226441/index.m3u8\n北京卫视,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226436/index.m3u8\n天津卫视HD,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226502/index.m3u8\n天津卫视,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226489/index.m3u8\n山东卫视HD,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226501/index.m3u8\n山东卫视,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226244/index.m3u8\n山东卫视,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226487/index.m3u8\n湖北卫视HD,http://39.134.135.125/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226240/index.m3u8\n湖北卫视,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226520/index.m3u8\n黑龙江卫视HD,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226498/index.m3u8\n黑龙江卫视,http://39.134.135.125/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226239/index.m3u8\n黑龙江卫视,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226524/index.m3u8\n安徽卫视HD,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226499/index.m3u8\n安徽卫视,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221225873/index.m3u8\n安徽卫视,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226490/index.m3u8\n辽宁卫视HD,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226500/index.m3u8\n辽宁卫视,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226336/index.m3u8\n辽宁卫视,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226488/index.m3u8\n东南卫视HD,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226406/index.m3u8\n东南卫视,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226496/index.m3u8\n江西卫视HD,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226243/index.m3u8\n江西卫视,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226522/index.m3u8\n河北卫视,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226536/index.m3u8\n河北卫视,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221225881/index.m3u8\n贵州卫视,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226405/index.m3u8\n贵州卫视,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221225880/index.m3u8\n南方卫视,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226540/index.m3u8\n山西卫视,http://39.134.135.125/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226531/index.m3u8\n山西卫视,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221225895/index.m3u8\n青海卫视,http://39.134.135.125/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226529/index.m3u8\n青海卫视,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226412/index.m3u8\n云南卫视,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221225902/index.m3u8\n云南卫视,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226424/index.m3u8\n陕西卫视,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221225896/index.m3u8\n陕西卫视,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226532/index.m3u8\n吉林卫视,http://39.134.135.125/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226426/index.m3u8\n吉林卫视,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221225886/index.m3u8\n吉林卫视,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226533/index.m3u8\n广西卫视,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226408/index.m3u8\n广西卫视,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226534/index.m3u8\n广西卫视,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221225879/index.m3u8\n西藏卫视,http://39.134.135.125/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226527/index.m3u8\n西藏卫视,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221225900/index.m3u8\n西藏卫视,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226428/index.m3u8\n内蒙古卫视,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226530/index.m3u8\n四川卫视,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221225898/index.m3u8\n宁夏卫视,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226413/index.m3u8\n宁夏卫视,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226528/index.m3u8\n宁夏卫视,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221225892/index.m3u8\n甘肃卫视,http://39.134.135.125/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226545/index.m3u8\n重庆卫视,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226518/index.m3u8\n新疆卫视,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226546/index.m3u8\n新疆卫视,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226422/index.m3u8\nhttp://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221225901/index.m3u8\n海南卫视,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221225890/index.m3u8\n海南卫视,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226427/index.m3u8\n\n兵团卫视,http://39.134.135.125/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226541/index.m3u8\n厦门卫视,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226542/index.m3u8\n三沙卫视,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226544/index.m3u8\n北京文艺HD,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226440/index.m3u8\n北京文艺,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226435/index.m3u8\n北京冬奥纪实HD,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226438/index.m3u8\n北京科教,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226434/index.m3u8\n北京影视,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226486/index.m3u8\n北京影视,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226433/index.m3u8\n北京财经,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226516/index.m3u8\n北京财经,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226560/index.m3u8\n北京生活,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226514/index.m3u8\n北京生活,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226561/index.m3u8\n北京青年,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226562/index.m3u8\n北京新闻,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226437/index.m3u8\n北京新闻,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226512/index.m3u8\n\n北京卡酷少儿,http://39.134.135.125/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226558/index.m3u8\n卡酷,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226418/index.m3u8\n卡酷,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221225907/index.m3u8\n北京国际,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226510/index.m3u8\n聚鲨环球精选,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226345/index.m3u8\n北京IPTV4K超清,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226550/index.m3u8\n北京IPTV萌宠,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226555/index.m3u8\n北京IPTV大健康,http://39.134.135.125/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226556/index.m3u8\n北京IPTV淘baby,http://39.134.135.125/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226554/index.m3u8\n北京IPTV淘电影,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226552/index.m3u8\n北京IPTV淘剧场,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226553/index.m3u8\n北京IPTV淘娱乐,http://39.134.135.125/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226551/index.m3u8\n嘉佳卡通,http://39.134.135.125/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226539/index.m3u8\n家有购物,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226343/index.m3u8\n茶频道,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226548/index.m3u8\n快乐垂钓,http://39.134.135.125/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226549/index.m3u8\n快乐购,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226341/index.m3u8\n优漫卡通,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226420/index.m3u8\n山东教育卫视\nhttp://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221225908/index.m3u8\n山东教育卫视,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226526/index.m3u8\n山东教育卫视,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226419/index.m3u8\n哈哈炫动,http://39.135.249.20/hwcdntest.hb.chinamobile.com/PLTV/88888888/224/3221226139/3.m3u8\n哈哈炫动,http://39.134.135.125/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226421/index.m3u8\n黑莓电竞,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221225931/index.m3u8\n黑莓动画,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221225914/index.m3u8\n黑莓电影,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221225927/index.m3u8\nNewTV爱情喜剧,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226322/index.m3u8\nNewTV超级电视剧,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226368/index.m3u8\nNewTV超级电视剧,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226253/index.m3u8\nNewTV超级电影,http://39.134.135.125/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226369/index.m3u8#http://39.134.135.125/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226233/index.m3u8\nNewTV超级体育,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226232/index.m3u8\nNewTV超级体育,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226348/index.m3u8\nNewTV超级综艺,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226231/index.m3u8#http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226370/index.m3u8\nNewTV潮妈辣婆,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226286/index.m3u8\nNewTV动作电影,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226329/index.m3u8\nNewTV古装剧场,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226323/index.m3u8\nNewTV热播精选,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226325/index.m3u8\nNewTV怡伴健康,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226327/index.m3u8\nNewTV军旅剧场,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226324/index.m3u8\nNewTV精品大剧,http://39.134.135.125/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226331/index.m3u8\nNewTV精品纪录,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226332/index.m3u8\nNewTV精品体育,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226328/index.m3u8\nNewTV金牌综艺,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226347/index.m3u8\nNewTV军事评论,http://39.134.135.125/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226326/index.m3u8\nNewTV惊悚悬疑,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221225921/index.m3u8\nNewTV惊悚悬疑,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226423/index.m3u8\nNewTV家庭剧场,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226330/index.m3u8\nNewTV精品综合,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221225929/index.m3u8\nNewTV农业致富,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226304/index.m3u8\nNewTV武搏世界,http://39.134.135.125/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226320/index.m3u8\nNewTV炫舞未来,http://39.134.135.125/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226248/index.m3u8\nNewTV中国功夫,http://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226321/index.m3u8\nNewTV海外剧场,http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226325/index.m3u8\nNewTV明星大片,http://39.134.135.80/otttv.bj.chinamobile.com/TVOD/88888888/224/3221225929/index.m3u8\n凤凰中文\nhttp://39.134.135.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221225942/index.m3u8\n凤凰资讯\nhttp://39.134.135.125/otttv.bj.chinamobile.com/TVOD/88888888/224/3221225948/index.m3u8\n测试频道1,#genre#\nCCTV-1[8M]1080HD,http://39.134.240.3/PLTV/2/224/3221226134/index.m3u8\nCCTV-2[8M]1080HD,http://39.134.240.3/PLTV/2/224/3221226188/index.m3u8\nCCTV-3[8M]1080HD,http://39.134.240.3/PLTV/2/224/3221226190/index.m3u8\nCCTV-4[8M]1080HD,http://39.134.240.3/PLTV/2/224/3221225829/index.m3u8\nCCTV-5[8M]1080HD,http://39.134.240.3/PLTV/2/224/3221225827/index.m3u8\nCCTV-5+[8M]1080HD,http://39.134.240.3/PLTV/2/224/3221225811/index.m3u8\nCCTV-6[8M]1080HD,http://39.134.240.3/PLTV/2/224/3221225825/index.m3u8\nCCTV-7[8M]1080HD,http://39.134.240.3/PLTV/2/224/3221225823/index.m3u8\nCCTV-8[8M]1080HD,http://39.134.240.3/PLTV/2/224/3221225821/index.m3u8\nCCTV-9[8M]1080HD,http://39.134.240.3/PLTV/2/224/3221225819/index.m3u8\nCCTV-10[8M]1080HD,http://39.134.240.3/PLTV/2/224/3221225817/index.m3u8\nCCTV-12[8M]1080HD,http://39.134.240.3/PLTV/2/224/3221225815/index.m3u8\nCCTV-14[8M]1080HD,http://39.134.240.3/PLTV/2/224/3221225813/index.m3u8\n东方卫视[8M]1080HD,http://39.134.240.3/PLTV/2/224/3221226208/index.m3u8\n北京卫视[8M]1080HD,http://39.134.240.3/PLTV/2/224/3221226204/index.m3u8\n江苏卫视[8M]1080HD,http://39.134.240.3/PLTV/2/224/3221226136/index.m3u8\n浙江卫视[8M]1080HD,http://39.134.240.3/PLTV/2/224/3221226148/index.m3u8\n山东卫视[8M]1080HD,http://39.134.240.3/PLTV/2/224/3221226214/index.m3u8\n深圳卫视[8M]1080HD,http://39.134.240.3/PLTV/2/224/3221226210/index.m3u8\n天津卫视[8M]1080HD,http://39.134.240.3/PLTV/2/224/3221226206/index.m3u8\n黑龙江卫视[8M]1080HD,http://39.134.240.3/PLTV/2/224/3221226216/index.m3u8\n湖北卫视[8M]1080HD,http://39.134.240.3/PLTV/2/224/3221226212/index.m3u8\n湖南卫视[8M]1080HD,http://39.134.240.3/PLTV/2/224/3221226324/index.m3u8\n湖南都市[8M]1080HD,http://39.134.240.3/PLTV/2/224/3221226146/index.m3u8\n湖南经视[8M]1080HD,http://39.134.240.3/PLTV/2/224/3221226036/index.m3u8\n湖南电视剧[8M]1080HD,http://39.134.240.3/PLTV/2/224/3221226138/index.m3u8\n湖南电影[8M]1080HD,http://39.134.240.3/PLTV/2/224/3221226140/index.m3u8\n湖南娱乐[8M]1080HD,http://39.134.240.3/PLTV/2/224/3221226144/index.m3u8\n湖南公共[8M]1080HD,http://39.134.240.3/PLTV/2/224/3221226192/index.m3u8\n湖南国际[8M]1080HD,http://39.134.240.3/PLTV/2/224/3221226194/index.m3u8\n金鹰卡通[8M]1080HD,http://39.134.240.3/PLTV/2/224/3221226142/index.m3u8\n快乐垂钓[8M]1080HD,http://39.134.240.3/PLTV/2/224/3221226348/index.m3u8\n长沙新闻频道[8M]1080HD,http://39.134.240.3/PLTV/2/224/3221226200/index.m3u8\n长沙政法频道[8M]1080HD,http://39.134.240.3/PLTV/2/224/3221226202/index.m3u8\n浏阳新闻[8M]1080HD,http://39.134.240.3/PLTV/2/224/3221226092/index.m3u8\nIPTV高清院线[8M]1080HD,http://39.134.240.3/PLTV/2/224/3221226334/index.m3u8\nIPTV经典剧场[8M]1080HD,http://39.134.240.3/PLTV/2/224/3221226328/index.m3u8\nIPTV抗战剧场[8M]1080HD,http://39.134.240.3/PLTV/2/224/3221226330/index.m3u8\nIPTV古装剧场[8M]1080HD,http://39.134.240.3/PLTV/2/224/3221226326/index.m3u8\nIPTV家庭剧场[8M]1080HD,http://39.134.240.3/PLTV/2/224/3221226332/index.m3u8\nIPTV芒果少儿[8M]1080HD,http://39.134.240.3/PLTV/2/224/3221226336/index.m3u8\n时尚频道[8M]1080HD,http://39.134.240.3/PLTV/2/224/3221226198/index.m3u8\nIPTV5+[8M]1080HD,http://39.134.240.3/PLTV/2/224/3221226260/index.m3u8\n快乐购[8M]1080HD,http://39.134.240.3/PLTV/2/224/3221226196/index.m3u8\n湖南经视720HD,http://39.134.240.3/PLTV/2/224/3221225884/index.m3u8\n湖南卫视720HD,http://39.134.240.3/PLTV/2/224/3221226132/index.m3u8\n深圳卫视720HD,http://39.134.240.3/PLTV/2/224/3221225892/index.m3u8\nCCTV-5+720HD,http://39.134.240.3/PLTV/2/224/3221225880/index.m3u8\nCCTV-1,http://39.134.240.3/PLTV/2/224/3221225886/index.m3u8\nCCTV-2,http://39.134.240.3/PLTV/2/224/3221225920/index.m3u8\nCCTV-3,http://39.134.240.3/PLTV/2/224/3221226180/index.m3u8\nCCTV-4,http://39.134.240.3/PLTV/2/224/3221225924/index.m3u8\nCCTV-5,http://39.134.240.3/PLTV/2/224/3221226182/index.m3u8\nCCTV-6,http://39.134.240.3/PLTV/2/224/3221226184/index.m3u8\nCCTV-7,http://39.134.240.3/PLTV/2/224/3221225930/index.m3u8\nCCTV-8,http://39.134.240.3/PLTV/2/224/3221226186/index.m3u8\nCCTV-9,http://39.134.240.3/PLTV/2/224/3221225934/index.m3u8\nCCTV-10,http://39.134.240.3/PLTV/2/224/3221225938/index.m3u8\nCCTV-11,http://39.134.240.3/PLTV/2/224/3221225940/index.m3u8\nCCTV-12,http://39.134.240.3/PLTV/2/224/3221225942/index.m3u8\nCCTV-13,http://39.134.240.3/PLTV/2/224/3221225944/index.m3u8\nCCTV-14,http://39.134.240.3/PLTV/2/224/3221225946/index.m3u8\nCCTV-15,http://39.134.240.3/PLTV/2/224/3221225948/index.m3u8\nCGTN DC,http://39.134.240.3/PLTV/2/224/3221225936/index.m3u8\nCGTN,http://39.134.240.3/PLTV/2/224/3221225950/index.m3u8\nIPTV3,http://39.134.240.3/PLTV/2/224/3221226164/index.m3u8\nIPTV5,http://39.134.240.3/PLTV/2/224/3221226166/index.m3u8\n茶频道,http://39.134.240.3/PLTV/2/224/3221225773/index.m3u8\n狗狗TV,http://39.134.240.3/PLTV/2/224/3221226344/index.m3u8\n家庭消费,http://39.134.240.3/PLTV/2/224/3221225805/index.m3u8\n女性频道,http://39.134.240.3/PLTV/2/224/3221226158/index.m3u8\n先锋乒羽,http://39.134.240.3/PLTV/2/224/3221226006/index.m3u8\n现代房产,http://39.134.240.3/PLTV/2/224/3221225803/index.m3u8\n株洲综合,http://39.134.240.3/PLTV/2/224/3221226170/index.m3u8\n湘潭公共频道,http://39.134.240.3/PLTV/2/224/3221226174/index.m3u8\n湘潭新闻综合,http://39.134.240.3/PLTV/2/224/3221226172/index.m3u8\n长沙影视频道,http://39.134.240.3/PLTV/2/224/3221226160/index.m3u8\n长沙新闻频道,http://39.134.240.3/PLTV/2/224/3221226154/index.m3u8\n长沙政法频道,http://39.134.240.3/PLTV/2/224/3221226156/index.m3u8\n湖南电视剧,http://39.134.240.3/PLTV/2/224/3221225906/index.m3u8\n湖南电影频道,http://39.134.240.3/PLTV/2/224/3221225908/index.m3u8\n湖南都市,http://39.134.240.3/PLTV/2/224/3221225902/index.m3u8\n湖南公共,http://39.134.240.3/PLTV/2/224/3221225904/index.m3u8\n湖南国际,http://39.134.240.3/PLTV/2/224/3221225914/index.m3u8\n湖南教育台,http://39.134.240.3/PLTV/2/224/3221226338/index.m3u8\n湖南娱乐频道,http://39.134.240.3/PLTV/2/224/3221225513/index.m3u8\n金鹰纪实,http://39.134.240.3/PLTV/2/224/3221225916/index.m3u8\n安徽卫视,http://39.134.240.3/PLTV/2/224/3221225964/index.m3u8\n北京卡酷,http://39.134.240.3/PLTV/2/224/3221225994/index.m3u8\n北京卫视,http://39.134.240.3/PLTV/2/224/3221225890/index.m3u8\n东方卫视,http://39.134.240.3/PLTV/2/224/3221226088/index.m3u8\n东南卫视,http://39.134.240.3/PLTV/2/224/3221225968/index.m3u8\n甘肃卫视,http://39.134.240.3/PLTV/2/224/3221225779/index.m3u8\n广东卫视,http://39.134.240.3/PLTV/2/224/3221225970/index.m3u8\n广西卫视,http://39.134.240.3/PLTV/2/224/3221225978/index.m3u8\n贵州卫视,http://39.134.240.3/PLTV/2/224/3221225990/index.m3u8\n海南卫视,http://39.134.240.3/PLTV/2/224/3221225992/index.m3u8\n河北卫视,http://39.134.240.3/PLTV/2/224/3221226070/index.m3u8\n河南卫视,http://39.134.240.3/PLTV/2/224/3221226068/index.m3u8\n黑龙江卫视,http://39.134.240.3/PLTV/2/224/3221225896/index.m3u8\n湖北卫视,http://39.134.240.3/PLTV/2/224/3221225962/index.m3u8\n吉林卫视,http://39.134.240.3/PLTV/2/224/3221226072/index.m3u8\n江苏卫视,http://39.134.240.3/PLTV/2/224/3221225888/index.m3u8\n江西卫视,http://39.134.240.3/PLTV/2/224/3221225972/index.m3u8\n辽宁卫视,http://39.134.240.3/PLTV/2/224/3221225980/index.m3u8\n南方卫视,http://39.134.240.3/PLTV/2/224/3221226082/index.m3u8\n内蒙古卫视,http://39.134.240.3/PLTV/2/224/3221226074/index.m3u8\n宁夏卫视,http://39.134.240.3/PLTV/2/224/3221226076/index.m3u8\n青海卫视,http://39.134.240.3/PLTV/2/224/3221226080/index.m3u8\n山东卫视,http://39.134.240.3/PLTV/2/224/3221225894/index.m3u8\n山西卫视,http://39.134.240.3/PLTV/2/224/3221225775/index.m3u8\n陕西卫视,http://39.134.240.3/PLTV/2/224/3221225984/index.m3u8\n四川卫视,http://39.134.240.3/PLTV/2/224/3221225982/index.m3u8\n天津卫视,http://39.134.240.3/PLTV/2/224/3221225898/index.m3u8\n西藏卫视,http://39.134.240.3/PLTV/2/224/3221225777/index.m3u8\n新疆卫视,http://39.134.240.3/PLTV/2/224/3221226078/index.m3u8\n云南卫视,http://39.134.240.3/PLTV/2/224/3221225986/index.m3u8\n浙江卫视,http://39.134.240.3/PLTV/2/224/3221225781/index.m3u8\n重庆卫视,http://39.134.240.3/PLTV/2/224/3221225966/index.m3u8\n足球,http://39.134.240.3/PLTV/2/224/3221225835/index.m3u8\n财富天下,http://39.134.240.3/PLTV/2/224/3221226366/index.m3u8\n电子体育,http://39.134.240.3/PLTV/2/224/3221226352/index.m3u8\n高尔夫,http://39.134.240.3/PLTV/2/224/3221226350/index.m3u8\n家庭理财,http://39.134.240.3/PLTV/2/224/3221226364/index.m3u8\n人物频道,http://39.134.240.3/PLTV/2/224/3221226368/index.m3u8\n时尚频道,http://39.134.240.3/PLTV/2/224/3221226016/index.m3u8\n四海钓鱼,http://39.134.240.3/PLTV/2/224/3221226346/index.m3u8\n天元围棋,http://39.134.240.3/PLTV/2/224/3221226342/index.m3u8\n优优宝贝,http://39.134.240.3/PLTV/2/224/3221226360/index.m3u8\n金鹰卡通,http://39.134.240.3/PLTV/2/224/3221225910/index.m3u8\n优漫卡通,http://39.134.240.3/PLTV/2/224/3221226086/index.m3u8\n哈哈炫动,http://39.134.240.3/PLTV/2/224/3221226084/index.m3u8\n中国天气,http://39.134.240.3/PLTV/2/224/3221225809/index.m3u8\n百姓健康频道,http://39.134.240.3/PLTV/2/224/3221226354/index.m3u8\n大美人,http://39.134.240.3/PLTV/2/224/3221226152/index.m3u8\n生活家,http://39.134.240.3/PLTV/2/224/3221226150/index.m3u8\n好吃厨房,http://39.134.240.3/PLTV/2/224/3221226162/index.m3u8\n嘉丽购,http://39.134.240.3/PLTV/2/224/3221226176/index.m3u8\n快乐购,http://39.134.240.3/PLTV/2/224/3221225912/index.m3u8\n信号检修,http://39.134.240.3/PLTV/2/224/3221226362/index.m3u8",
+    locale: 'zh-cn',
+    checkLicensePath: '/tm147/tv/check_license',
+    message: {
+      notChange: '文件内容未更改'
+    },
+    form: {
+      on: 'blur',
+      fields: {
+        file_name: {
+          identifier: 'file_name',
+          rules: [
+            {
+              type: 'empty',
+              prompt: '文件名不能为空'
+            }
+          ]
+        },
+        commit_message_header: {
+          identifier: 'commit_message_header',
+          rules: [
+            {
+              type: 'empty',
+              prompt: '提交信息不能为空'
+            },
+            {
+              type: 'maxLength[100]',
+              prompt: '提交信息长度不应该超过 100 个字符，请尽可能简单的描述此次改动'
+            }
+          ]
+        }
+      }
+    },
+    action: 'edit'
+  });
+</script>
+
+</div>
+<script>
+  (function() {
+    var donateModal;
+  
+    Gitee.modalHelper = new GiteeModalHelper({
+      alertText: '提示',
+      okText: '确定'
+    });
+  
+    donateModal = new ProjectDonateModal({
+      el: '#project-donate-modal',
+      alipayUrl: '/tm147/tv/alipay',
+      wepayUrl: '/tm147/tv/wepay',
+      nameIsBlank: '名称不能为空',
+      nameTooLong: '名称过长（最多为 36 个字符）',
+      modalHelper: Gitee.modalHelper
+    });
+  
+    if (null === 'true') {
+      donateModal.show();
+    }
+  
+    $('#project-donate').on('click', function() {
+      return donateModal.show();
+    });
+  
+  }).call(this);
+</script>
+<script>
+  Tree.initHighlightTheme('white')
+</script>
+
+
+</div>
+<div class='gitee-project-extension'>
+<div class='extension public'>1</div>
+<div class='extension https'>https://gitee.com/tm147/tv.git</div>
+<div class='extension ssh'>git@gitee.com:tm147/tv.git</div>
+<div class='extension namespace'>tm147</div>
+<div class='extension repo'>tv</div>
+<div class='extension name'>tv</div>
+<div class='extension branch'>master</div>
+</div>
+
+<script>
+  $(function() {
+    GitLab.GfmAutoComplete.dataSource = "/tm147/tv/autocomplete_sources"
+    GitLab.GfmAutoComplete.Emoji.assetBase = '/assets/emoji'
+    GitLab.GfmAutoComplete.setup();
+  });
+</script>
+
+<footer id='git-footer-main'>
+<div class='ui container'>
+<div class='logo-row'>
+<img class='logo-img' src='/static/images/logo-black.svg?t=158106666'>
+</div>
+<div class='name-important'>
+深圳市奥思网络科技有限公司版权所有
+</div>
+<div class='ui two column grid d-flex-center'>
+<div class='nine wide column git-footer-left'>
+<div class='ui four column grid' id='footer-left'>
+<div class='column'>
+<div class='ui link list'>
+<div class='item'>
+<a class="item" href="/about_us">关于我们</a>
+</div>
+<div class='item'>
+<a class="item" href="https://www.oschina.net/news/131099/oschina-hiring">加入我们</a>
+</div>
+<div class='item'>
+<a class="item" href="/terms">使用条款</a>
+</div>
+<div class='item'>
+<a class="item" href="/oschina/git-osc/issues">意见建议</a>
+</div>
+<div class='item'>
+<a class="item" href="/links.html">合作伙伴</a>
+</div>
+</div>
+</div>
+<div class='column'>
+<div class='ui link list'>
+<div class='item'>
+<a class="item" href="/all-about-git">Git 大全</a>
+</div>
+<div class='item'>
+<a class="item" href="https://oschina.gitee.io/learn-git-branching/">Git 命令学习</a>
+</div>
+<div class='item'>
+<a class="item" href="https://copycat.gitee.com/">CopyCat 代码克隆检测</a>
+</div>
+<div class='item'>
+<a class="item" href="/appclient">APP与插件下载</a>
+</div>
+</div>
+</div>
+<div class='column'>
+<div class='ui link list'>
+<div class='item'>
+<a class="item" href="/gitee_reward">Gitee Reward</a>
+</div>
+<div class='item'>
+<a class="item" href="/gitee-stars">Gitee 封面人物</a>
+</div>
+<div class='item'>
+<a class="item" href="/gvp">GVP 项目</a>
+</div>
+<div class='item'>
+<a class="item" href="https://blog.gitee.com/">Gitee 博客</a>
+</div>
+<div class='item'>
+<a class="item" href="/enterprises#nonprofit-plan">Gitee 公益计划</a>
+</div>
+</div>
+</div>
+<div class='column'>
+<div class='ui link list'>
+<div class='item'>
+<a class="item" href="/api/v5/swagger">OpenAPI</a>
+</div>
+<div class='item'>
+<a class="item" href="/help">帮助文档</a>
+</div>
+<div class='item'>
+<a class="item" href="/self_services">在线自助服务</a>
+</div>
+<div class='item'>
+<a class="item" href="/help/articles/4338#article-header0">更新日志</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='seven wide column right aligned followus git-footer-right'>
+<div class='qrcode mini_app'>
+<img src="https://assets.gitee.com/assets/mini_app-e5eee5a21c552b69ae6bf2cf87406b59.jpg" alt="Mini app" />
+<p class='mini_app-text'>微信小程序</p>
+</div>
+<div class='qrcode weixin'>
+<img src="https://assets.gitee.com/assets/qrcode-weixin-9e7cfb27165143d2b8e8b268a52ea822.jpg" alt="Qrcode weixin" />
+<p class='weixin-text'>微信服务号</p>
+</div>
+<div class='phone-and-qq column'>
+<div class='ui list official-support-container'>
+<div class='item'>
+<a class="icon-popup" title="点击加入 Gitee 官方群" href="//qm.qq.com/cgi-bin/qm/qr?k=OUfztMuf7jElTIf78lMuNT_D_lZYOWnd"><i class='iconfont icon-logo-qq'></i>
+<span>官方技术交流QQ群：515965326</span>
+</a></div>
+<div class='item mail-and-zhihu'>
+<a href="mailto: git@oschina.cn"><i class='iconfont icon-msg-mail'></i>
+<span id='git-footer-email'>git#oschina.cn</span>
+</a></div>
+<div class='item mail-and-zhihu'>
+<a target="_blank" href="https://www.zhihu.com/org/ma-yun-osc/"><i class='iconfont icon-zhihu'></i>
+<span>Gitee</span>
+</a></div>
+<div class='item tel'>
+<a>
+<i class='iconfont icon-tel'></i>
+<span>售前及售后使用咨询：400-606-0201</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='bottombar'>
+<div class='ui container'>
+<div class='ui d-flex d-flex-between'>
+<div class='seven wide column partner d-flex'>
+<div class='open-atom d-flex-center'>
+<img class="logo-openatom mr-1" src="https://assets.gitee.com/assets/logo-openatom-d083391cc8a54e283529f3fc11cc38ca.svg" alt="Logo openatom" />
+<a target="_blank" href="https://www.openatom.org/">开放原子开源基金会</a>
+<div class='sub-title ml-1'>合作代码托管平台</div>
+</div>
+<div class='report-12377 d-flex-center ml-3'>
+<img class="report-12377__logo mr-1" src="https://assets.gitee.com/assets/12377@2x-1aa42ed2d2256f82a61ecf57be1ec244.png" alt="12377@2x" />
+<a target="_blank" href="https://12377.cn">违法和不良信息举报中心</a>
+</div>
+<div class='copyright ml-3'>
+<a href="http://beian.miit.gov.cn/">粤ICP备12009483号</a>
+</div>
+</div>
+<div class='nine wide column right aligned'>
+<i class='icon world'></i>
+<a href="/language/zh-CN">简 体</a>
+/
+<a href="/language/zh-TW">繁 體</a>
+/
+<a href="/language/en">English</a>
+</div>
+</div>
+</div>
+</div>
+</footer>
+<script>
+  var officialEmail = $('#git-footer-email').text()
+  $('#git-footer-main .icon-popup').popup({ position: 'bottom center' })
+  $('#git-footer-email').text(officialEmail.replace('#', '@'))
+  window.gon.popover_card_locale = {
+    follow:"关注",
+    unfollow:"已关注",
+    gvp_title: "GVP - Gitee 最有价值开源项目",
+    project: "项目",
+    org: "开源组织",
+    member: "",
+    author: "作者",
+    user_blocked: "该用户已被屏蔽或已注销",
+    net_error: "网络错误",
+    unknown_exception: "未知异常"
+  }
+  window.gon.select_message = {
+    placeholder: "请输入个人空间地址或完整的邮箱地址"
+  }
+</script>
+<script src="https://assets.gitee.com/webpacks/popover_card-5e5f80166768e5968f94.bundle.js"></script>
+
+<div class='mobile-switch-banner'>
+<a href='/tm147/tv/edit/master/bj.txt?force_mobile=true'>
+<h3>
+<i class='iconfont icon-ic-phone'></i>
+切换到移动版
+</h3>
+</a>
+<h3 class='btn-close'>
+<i class='iconfont icon-close'></i>
+</h3>
+</div>
+<script>
+  if(navigator.userAgent.indexOf("iPad") != -1){
+    $('.mobile-switch-banner').hide()
+  }
+  $(function () {
+    $('body').addClass('is-mobile')
+  
+    $('.mobile-switch-banner').on('click', '.btn-close', function (e) {
+      $(this).parent().remove()
+      e.stopPropagation()
+    })
+  })
+</script>
+
+<div class='side-toolbar'>
+<div class='button toolbar-help'>
+<i class='iconfont icon-help'></i>
+</div>
+<div class='ui popup left center dark'>点此查找更多帮助</div>
+<div class='toolbar-help-dialog'>
+<div class='toolbar-dialog-header'>
+<h3 class='toolbar-dialog-title'>搜索帮助</h3>
+<form class="toolbar-help-search-form" action="/help/load_keywords_data" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+<div class='ui icon input fluid toolbar-help-search'>
+<input name='keywords' placeholder='请输入产品名称或问题' type='text'>
+<i class='icon search'></i>
+</div>
+</form>
+
+<i class='iconfont icon-close toolbar-dialog-close-icon'></i>
+</div>
+<div class='toolbar-dialog-content'>
+<div class='toolbar-help-hot-search'>
+<div class='toolbar-roll'>
+<a class="init active" title="Git 命令在线学习" href="https://oschina.gitee.io/learn-git-branching/?utm_source==gitee-help-widget"><i class='Blue icon icon-command iconfont'></i>
+<span>Git 命令在线学习</span>
+</a><a class="init " title="如何在 Gitee 导入 GitHub 仓库" href="https://gitee.com/help/articles/4261?utm_source==gitee-help-widget"><i class='icon icon-clipboard iconfont orange'></i>
+<span>如何在 Gitee 导入 GitHub 仓库</span>
+</a></div>
+<div class='toolbar-list'>
+<div class='toolbar-list-item'>
+<a href="/help/articles/4114">Git 仓库基础操作</a>
+</div>
+<div class='toolbar-list-item'>
+<a href="/help/articles/4166">企业版和社区版功能对比</a>
+</div>
+<div class='toolbar-list-item'>
+<a href="/help/articles/4191">SSH 公钥设置</a>
+</div>
+<div class='toolbar-list-item'>
+<a href="/help/articles/4194">如何处理代码冲突</a>
+</div>
+<div class='toolbar-list-item'>
+<a href="/help/articles/4232">仓库体积过大，如何减小？</a>
+</div>
+<div class='toolbar-list-item'>
+<a href="/help/articles/4279">如何找回被删除的仓库数据</a>
+</div>
+<div class='toolbar-list-item'>
+<a href="/help/articles/4283">Gitee 产品配额说明</a>
+</div>
+<div class='toolbar-list-item'>
+<a href="/help/articles/4284">GitHub仓库快速导入Gitee及同步更新</a>
+</div>
+<div class='toolbar-list-item'>
+<a href="/help/articles/4328">什么是 Release（发行版）</a>
+</div>
+</div>
+</div>
+<div class='toolbar-help-search-reseult'>
+<div class='toolbar-help-flex-column'>
+<div class='ui centered inline loader toolbar-help-loader'></div>
+<div class='toolbar-list'></div>
+<div class='toolbar-help-link-to-help'>
+<a target="_blank" href="">查看更多搜索结果</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script>
+  var opt = { position: 'left center'};
+  var $helpSideToolbar = $('.button.toolbar-help');
+  var $toolbarRoll = $('.toolbar-roll');
+  
+  $(function() {
+    if (true) {
+      $helpSideToolbar.popup(opt).popup({lastResort:'left center'})
+    } else {
+      $helpSideToolbar.popup({lastResort:'left center'}).popup('show', opt);
+      setTimeout(function() {
+        $helpSideToolbar.popup('hide', opt);
+      }, 3000);
+    }
+  
+    if ($toolbarRoll.length) {
+      setInterval(function() {
+        var $nextActiveLink = $toolbarRoll.find('a.active').next();
+        if (!$nextActiveLink.length) {
+          $nextActiveLink = $toolbarRoll.find('a:first-child');
+        }
+        $nextActiveLink.attr('class', 'active').siblings().removeClass('active init');
+      }, 5000);
+    }
+  })
+</script>
+
+<div class='button share-link'>
+<i class='iconfont icon-share'></i>
+</div>
+<div class='ui popup dark'>
+<div class='header'>
+分享到
+</div>
+<div class='bdsharebuttonbox' style='display: flex'>
+<a class='iconfont icon-home-service-wechat' data-cmd='weixin' title='分享到微信'></a>
+<a class='iconfont icon-weibo' data-cmd='tsina' title='分享到新浪微博'></a>
+<a class='iconfont icon-qq' data-cmd='sqq' title='分享到QQ好友'></a>
+<a class='iconfont icon-qzone' data-cmd='qzone' title='分享到QQ空间'></a>
+</div>
+</div>
+<div class='popup button' id='home-comment'>
+<i class='iconfont icon-comment'></i>
+</div>
+<div class='ui popup dark'>评论</div>
+<div class='button gotop popup' id='gotop'>
+<i class='iconfont icon-top'></i>
+</div>
+<div class='ui popup dark'>回到顶部</div>
+</div>
+<style>
+  .side-toolbar .bdsharebuttonbox a {
+    font-size: 24px;
+    color: white !important;
+    opacity: 0.9;
+    margin: 6px 6px 0px 6px;
+    background-image: none;
+    text-indent: 0;
+    height: auto;
+    width: auto;
+  }
+  
+  #udesk_btn a{
+    margin: 0px 20px 217px 0px !important;
+  }
+</style>
+<script>
+  (function() {
+    $('#project-user-message').popup({
+      position: 'left center'
+    });
+  
+  }).call(this);
+</script>
+<script>
+  Gitee.initSideToolbar({
+    hasComment: true,
+    commentUrl: '/tm147/tv#tree_comm_title'
+  })
+</script>
+<script>
+  window._bd_share_config = {
+    "common": {
+      "bdSnsKey": {},
+      "bdText": document.title,
+      "bdMini": "1",
+      "bdMiniList": ["bdxc","tqf","douban","bdhome","sqq","thx","ibaidu","meilishuo","mogujie","diandian","huaban","duitang","hx","fx","youdao","sdo","qingbiji","people","xinhua","mail","isohu","yaolan","wealink","ty","iguba","fbook","twi","linkedin","h163","evernotecn","copy","print"],
+      "bdPic": "",
+      "bdStyle": "1",
+      "bdSize": "32"
+    },
+    "share": {}
+  }
+</script>
+<script src="/bd_share/static/api/js/share.js"></script>
+
+
+
+
+
+<script>
+  (function() {
+    this.__gac = {
+      domain: 'www.oschina.net'
+    };
+  
+  }).call(this);
+</script>
+
+</body>
+</html>
